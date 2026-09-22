@@ -97,27 +97,27 @@
             <a class="header-brand" href="${b}index.html">
               <img src="${logo.festa}" alt="${t('siteName')}">
             </a>
-            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-gnb" aria-label="${t('menuOpen')}">
-              <span></span><span></span><span></span>
-            </button>
           </div>
-
-          <div class="header-nav-wrap" id="site-gnb">
-            <nav class="header-nav" aria-label="${t('siteName')}">
-              <ul class="gnb">${items}</ul>
-            </nav>
-          </div>
-
           <div class="header-aside">
             <div class="lang-switch" role="group" aria-label="${t('langLabel')}">
               <button type="button" class="lang-switch__btn${krActive}" data-lang="ko" aria-pressed="${lang === 'ko'}">KR</button>
               <button type="button" class="lang-switch__btn${enActive}" data-lang="en" aria-pressed="${lang === 'en'}">EN</button>
             </div>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-gnb" aria-label="${t('menuOpen')}">
+              <span class="menu-toggle__bar" aria-hidden="true"></span>
+              <span class="menu-toggle__bar" aria-hidden="true"></span>
+              <span class="menu-toggle__bar" aria-hidden="true"></span>
+            </button>
             <div class="header-partner header-partner--seoul">
               <img class="header-partner__seoul" src="${logo.headerPartner1}" alt="동행·매력 특별시 서울">
               <img class="header-partner__mysoul" src="${logo.headerPartner2}" alt="SEOUL MY SOUL">
             </div>
           </div>
+        </div>
+        <div class="header-nav-wrap" id="site-gnb">
+          <nav class="header-nav" aria-label="${t('siteName')}">
+            <ul class="gnb">${items}</ul>
+          </nav>
         </div>
       </header>`;
   }
@@ -214,13 +214,17 @@
     const wrap = document.querySelector('.header-nav-wrap');
     if (!toggle || !wrap) return;
 
-    toggle.addEventListener('click', () => {
-      const open = wrap.classList.toggle('is-open');
+    const MOBILE_NAV_MAX = 960;
+
+    function setMobileNavOpen(open) {
+      wrap.classList.toggle('is-open', open);
+      document.body.classList.toggle('mobile-nav-open', open);
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      toggle.setAttribute(
-        'aria-label',
-        open ? I18N.t('menuClose') : I18N.t('menuOpen')
-      );
+      toggle.setAttribute('aria-label', open ? I18N.t('menuClose') : I18N.t('menuOpen'));
+    }
+
+    toggle.addEventListener('click', () => {
+      setMobileNavOpen(!wrap.classList.contains('is-open'));
     });
 
     document.querySelectorAll('.gnb-item').forEach((item) => {
@@ -228,11 +232,37 @@
       if (!sub) return;
       const link = item.querySelector('.gnb-link');
       link.addEventListener('click', (e) => {
-        if (window.innerWidth <= 960) {
+        if (window.innerWidth <= MOBILE_NAV_MAX) {
           e.preventDefault();
           item.classList.toggle('is-open');
         }
       });
+    });
+
+    wrap.querySelectorAll('.gnb-sub a').forEach((link) => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= MOBILE_NAV_MAX) setMobileNavOpen(false);
+      });
+    });
+
+    wrap.querySelectorAll('.gnb-item').forEach((item) => {
+      if (item.querySelector('.gnb-sub')) return;
+      const link = item.querySelector('.gnb-link');
+      link?.addEventListener('click', () => {
+        if (window.innerWidth <= MOBILE_NAV_MAX) setMobileNavOpen(false);
+      });
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > MOBILE_NAV_MAX && wrap.classList.contains('is-open')) {
+        setMobileNavOpen(false);
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && wrap.classList.contains('is-open')) {
+        setMobileNavOpen(false);
+      }
     });
   }
 
