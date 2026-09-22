@@ -92,6 +92,46 @@ body.is-sub .sub-hero__header .site-header {
   color: var(--blue-dark);
 }
 
+/* ===== 서브 페이지 reveal (stagger fade-up) ===== */
+@keyframes sub-reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  body.is-sub .sub-visual-head {
+    animation: sub-reveal-up 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .reveal-up {
+    opacity: 0;
+    transform: translateY(32px);
+    transition:
+      opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--reveal-delay, 0s);
+  }
+
+  .reveal-up.is-revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-up {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 /* ===== 행사 개요 (시안) ===== */
 .page-main--overview {
   overflow: hidden;

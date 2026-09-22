@@ -266,6 +266,53 @@
     });
   }
 
+  let revealObserver = null;
+
+  const REVEAL_SELECTORS = [
+    '.page-inner > .overview-panel',
+    '.page-inner > .content-card',
+    '.page-inner > section',
+    '.page-inner > article',
+    '.sponsor-layout > .content-card',
+    '.performance-day',
+  ].join(', ');
+
+  function initSubReveal() {
+    if (document.body.dataset.page !== 'sub') return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    document.querySelectorAll('.reveal-up').forEach((el) => {
+      el.classList.remove('reveal-up', 'is-revealed');
+      el.style.removeProperty('--reveal-delay');
+    });
+
+    if (revealObserver) {
+      revealObserver.disconnect();
+      revealObserver = null;
+    }
+
+    const nodes = document.querySelectorAll(REVEAL_SELECTORS);
+    nodes.forEach((el, i) => {
+      el.classList.add('reveal-up');
+      el.style.setProperty('--reveal-delay', `${Math.min(i * 0.1, 0.55)}s`);
+    });
+
+    if (!nodes.length) return;
+
+    revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-revealed');
+          revealObserver.unobserve(entry.target);
+        });
+      },
+      { root: null, rootMargin: '0px 0px -5% 0px', threshold: 0.06 }
+    );
+
+    nodes.forEach((el) => revealObserver.observe(el));
+  }
+
   function bindLangSwitch() {
     document.querySelectorAll('[data-lang]').forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -314,6 +361,8 @@
     if (document.body.dataset.page === 'sub') {
       document.body.classList.add('is-sub');
     }
+
+    initSubReveal();
   }
 
   document.addEventListener('DOMContentLoaded', mountLayout);
