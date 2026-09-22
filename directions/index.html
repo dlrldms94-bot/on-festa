@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오시는길 | 2026 서울관광 ON 페스타</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/sub.css">
+</head>
+<body
+  data-page="sub"
+  data-base="../"
+  data-nav="directions"
+  data-title-key="nav.directions"
+  data-breadcrumb='[{"labelKey":"breadcrumb.home","href":"../index.html"},{"labelKey":"nav.directions"}]'>
+  <a class="skip-link" href="#main" data-i18n="skipMain">본문 바로가기</a>
+  <div class="sub-shell">
+    <div class="sub-hero">
+      <div class="sub-hero__bg" aria-hidden="true"><img src="../img/sub.jpg" alt=""></div>
+      <div class="sub-hero__header">
+        <div id="site-header"></div>
+      </div>
+      <div class="sub-hero__inner">
+        <h1 class="sub-hero__title" id="sub-title">오시는길</h1>
+        <div id="sub-breadcrumb"></div>
+      </div>
+    </div>
+  </div>
+  <main id="main" class="page-main">
+    <div class="page-inner">
+      <header class="sub-visual-head">
+        <h2 class="sr-only" data-i18n="nav.directions">오시는길</h2>
+        <img
+          class="sub-visual-head__tit"
+          src="../img/location-tit.png"
+          alt=""
+          data-i18n-alt="directions.titleAlt"
+          width="2653"
+          height="550"
+          decoding="async">
+      </header>
+      <div class="directions-layout">
+        <section class="directions-panel directions-panel--map content-card" aria-labelledby="directions-venue-heading">
+          <header class="directions-panel__head">
+            <h2 id="directions-venue-heading" class="directions-panel__title" data-i18n="directions.venueTitle">
+              행사장 위치
+            </h2>
+            <p class="directions-panel__sub" data-i18n="directions.venueSub">남산 팔각정 일원 | Namsan Palgakjeong Pavilion</p>
+          </header>
+          <div class="directions-map">
+            <iframe
+              class="directions-map__embed"
+              src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357ca2579f4f8ea9%3A0x7002b3add0c69422!2z64Ko7IKw7YyU6rCB7KCV!5e0!3m2!1sko!2skr!4v1789981099615!5m2!1sko!2skr"
+              title="남산 팔각정 일원 행사장 위치 안내 지도"
+              data-i18n-alt="directions.mapAlt"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen></iframe>
+          </div>
+        </section>
+
+        <section class="directions-panel directions-panel--transit" aria-labelledby="directions-transit-heading">
+          <header class="directions-transit__head">
+            <h2 id="directions-transit-heading" class="directions-transit__title" data-i18n="directions.transitTitle">
+              대중교통 이용안내
+            </h2>
+            <p class="directions-transit__sub" data-i18n="directions.transitSub">지하철과 버스를 이용하면 더 편리하게 오실 수 있습니다.</p>
+          </header>
+
+          <ul class="directions-routes">
+            <li class="directions-route directions-route--blue">
+              <span class="directions-route__icon" aria-hidden="true">🚇</span>
+              <div class="directions-route__body">
+                <h3 class="directions-route__title" data-i18n="directions.chungmuroTitle">충무로역 (3,4호선)</h3>
+                <p class="directions-route__desc" data-i18n="directions.chungmuroDesc">2번 출구 → 01A·01B번 버스 → 남산서울타워 하차 → 팔각정</p>
+              </div>
+            </li>
+            <li class="directions-route directions-route--orange">
+              <span class="directions-route__icon" aria-hidden="true">🚇</span>
+              <div class="directions-route__body">
+                <h3 class="directions-route__title" data-i18n="directions.donggukTitle">동대입구역 (3호선)</h3>
+                <p class="directions-route__desc" data-i18n="directions.donggukDesc">6번 출구 → 01A·01B번 버스 → 남산서울타워 하차 → 팔각정</p>
+              </div>
+            </li>
+            <li class="directions-route directions-route--purple">
+              <span class="directions-route__icon" aria-hidden="true">🚡</span>
+              <div class="directions-route__body">
+                <h3 class="directions-route__title" data-i18n="directions.myeongdongTitle">명동역 (4호선)</h3>
+                <p class="directions-route__desc" data-i18n="directions.myeongdongDesc">3번 출구 → 남산케이블카 → 상부 승강장 → 팔각정</p>
+              </div>
+            </li>
+            <li class="directions-route directions-route--car">
+              <span class="directions-route__icon" aria-hidden="true">🚘</span>
+              <div class="directions-route__body">
+                <h3 class="directions-route__title" data-i18n="directions.carTitle">차량 안내</h3>
+                <p class="directions-route__desc" data-i18n="directions.carDesc">남산 정상부는 일반 승용차 진입이 제한됩니다.</p>
+                <p class="directions-route__note" data-i18n="directions.carNote">가급적 대중교통을 이용해 주세요.</p>
+              </div>
+            </li>
+          </ul>
+
+          <a
+            class="directions-naver"
+            href="https://map.naver.com/v5/search/%EB%82%A8%EC%82%B0%20%ED%8C%94%EA%B0%81%EC%A0%95"
+            target="_blank"
+            rel="noopener noreferrer">
+            <span data-i18n="directions.naverMap">네이버 지도에서 보기</span>
+            <span class="directions-naver__arrow" aria-hidden="true">→</span>
+          </a>
+        </section>
+      </div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/common.js"></script>
+</body>
+</html>

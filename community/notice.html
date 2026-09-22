@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>공지사항 | 2026 서울관광 ON 페스타</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/sub.css">
+</head>
+<body
+  data-page="sub"
+  data-base="../"
+  data-nav="community"
+  data-title-key="sub.notice"
+  data-breadcrumb='[{"labelKey":"breadcrumb.home","href":"../index.html"},{"labelKey":"nav.community","href":"notice.html"},{"labelKey":"sub.notice"}]'>
+  <a class="skip-link" href="#main" data-i18n="skipMain">본문 바로가기</a>
+  <div class="sub-shell">
+    <div class="sub-hero">
+      <div class="sub-hero__bg" aria-hidden="true"><img src="../img/sub.jpg" alt=""></div>
+      <div class="sub-hero__header">
+        <div id="site-header"></div>
+      </div>
+      <div class="sub-hero__inner">
+        <h1 class="sub-hero__title" id="sub-title">공지사항</h1>
+        <div id="sub-breadcrumb"></div>
+      </div>
+    </div>
+  </div>
+  <main id="main" class="page-main">
+    <div class="page-inner">
+      <div class="content-card content-card--notice" id="notice-board">
+        <div class="notice-board__head">
+          <p class="notice-board__count" data-i18n="noticePage.listCaption">행사 공지 목록</p>
+        </div>
+        <div class="notice-board__table-wrap">
+          <table class="notice-board">
+            <caption class="sr-only" data-i18n="noticePage.tableCaption">공지사항 목록</caption>
+            <thead>
+              <tr>
+                <th scope="col" class="notice-board__col-num" data-i18n="noticePage.colNum">번호</th>
+                <th scope="col" data-i18n="noticePage.colTitle">제목</th>
+                <th scope="col" class="notice-board__col-date" data-i18n="noticePage.colDate">등록일</th>
+              </tr>
+            </thead>
+            <tbody data-notice-list></tbody>
+          </table>
+        </div>
+        <p class="notice-board__empty" data-notice-empty hidden data-i18n="noticePage.empty">등록된 공지가 없습니다.</p>
+        <p class="notice-board__error" data-notice-error hidden role="alert"></p>
+        <nav class="notice-board__pagination" data-notice-pagination aria-label="pagination"></nav>
+      </div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/notice-board.js"></script>
+</body>
+</html>
