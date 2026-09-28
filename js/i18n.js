@@ -703,18 +703,41 @@
     },
   };
 
+  const SUPPORTED_LANGS = ['ko', 'en', 'zh', 'ja'];
+  const HTML_LANG = { ko: 'ko', en: 'en', zh: 'zh-Hans', ja: 'ja' };
+
+  if (typeof window !== 'undefined') {
+    if (window.ONFESTA_LOCALE_ZH) MESSAGES.zh = window.ONFESTA_LOCALE_ZH;
+    if (window.ONFESTA_LOCALE_JA) MESSAGES.ja = window.ONFESTA_LOCALE_JA;
+  }
+
+  function getLangOptions() {
+    return [
+      { code: 'ko', label: '한국어' },
+      { code: 'en', label: 'English' },
+      { code: 'zh', label: '中文' },
+      { code: 'ja', label: '日本語' },
+    ];
+  }
+
+  function getHtmlLang(code) {
+    return HTML_LANG[code] || code;
+  }
+
   function getLang() {
     const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored === 'en' || stored === 'ko') return stored;
+    if (stored && SUPPORTED_LANGS.includes(stored)) return stored;
     const docLang = document.documentElement.lang;
     if (docLang === 'en') return 'en';
+    if (docLang === 'zh-Hans' || docLang === 'zh') return 'zh';
+    if (docLang === 'ja') return 'ja';
     return 'ko';
   }
 
   function setLang(lang) {
-    if (lang !== 'ko' && lang !== 'en') return;
+    if (!SUPPORTED_LANGS.includes(lang)) return;
     localStorage.setItem(STORAGE_KEY, lang);
-    document.documentElement.lang = lang;
+    document.documentElement.lang = getHtmlLang(lang);
     window.dispatchEvent(new CustomEvent('onfesta:lang', { detail: { lang } }));
   }
 
@@ -731,7 +754,10 @@
 
   window.ONFESTA_I18N = {
     MESSAGES,
+    SUPPORTED_LANGS,
     getLang,
+    getLangOptions,
+    getHtmlLang,
     setLang,
     t,
   };

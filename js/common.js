@@ -86,8 +86,22 @@
       })
       .join('');
 
-    const krActive = lang === 'ko' ? ' is-active' : '';
-    const enActive = lang === 'en' ? ' is-active' : '';
+    const langOptions = I18N.getLangOptions();
+    const currentLang =
+      langOptions.find((opt) => opt.code === lang) || langOptions[0];
+    const langMenuItems = langOptions
+      .map((opt) => {
+        const selected = lang === opt.code;
+        return `<li class="lang-dropdown__item" role="none">
+          <button
+            type="button"
+            class="lang-dropdown__option${selected ? ' is-selected' : ''}"
+            role="option"
+            data-lang="${opt.code}"
+            aria-selected="${selected}">${opt.label}</button>
+        </li>`;
+      })
+      .join('');
     const logo = logos(b);
 
     return `
@@ -99,9 +113,24 @@
             </a>
           </div>
           <div class="header-aside">
-            <div class="lang-switch" role="group" aria-label="${t('langLabel')}">
-              <button type="button" class="lang-switch__btn${krActive}" data-lang="ko" aria-pressed="${lang === 'ko'}">KR</button>
-              <button type="button" class="lang-switch__btn${enActive}" data-lang="en" aria-pressed="${lang === 'en'}">EN</button>
+            <div class="lang-dropdown">
+              <button
+                type="button"
+                class="lang-dropdown__trigger"
+                id="site-lang-trigger"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-controls="site-lang-menu">
+                <span class="lang-dropdown__label">${currentLang.label}</span>
+                <span class="lang-dropdown__chevron" aria-hidden="true"></span>
+              </button>
+              <ul
+                class="lang-dropdown__menu"
+                id="site-lang-menu"
+                role="listbox"
+                aria-label="${t('langLabel')}">
+                ${langMenuItems}
+              </ul>
             </div>
             <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-gnb" aria-label="${t('menuOpen')}">
               <span class="menu-toggle__bar" aria-hidden="true"></span>
@@ -313,19 +342,61 @@
     nodes.forEach((el) => revealObserver.observe(el));
   }
 
+  let langDropdownOutsideClick = null;
+
   function bindLangSwitch() {
-    document.querySelectorAll('[data-lang]').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const lang = btn.getAttribute('data-lang');
-        I18N.setLang(lang);
-        mountLayout();
+    const root = document.querySelector('.lang-dropdown');
+    const trigger = document.getElementById('site-lang-trigger');
+    const menu = document.getElementById('site-lang-menu');
+    if (!root || !trigger || !menu) return;
+
+    if (langDropdownOutsideClick) {
+      document.removeEventListener('click', langDropdownOutsideClick);
+      langDropdownOutsideClick = null;
+    }
+
+    const closeMenu = () => {
+      root.classList.remove('is-open');
+      trigger.setAttribute('aria-expanded', 'false');
+    };
+
+    const openMenu = () => {
+      root.classList.add('is-open');
+      trigger.setAttribute('aria-expanded', 'true');
+    };
+
+    trigger.addEventListener('click', (event) => {
+      event.stopPropagation();
+      if (root.classList.contains('is-open')) closeMenu();
+      else openMenu();
+    });
+
+    menu.querySelectorAll('[data-lang]').forEach((btn) => {
+      btn.addEventListener('click', (event) => {
+        event.stopPropagation();
+        const nextLang = btn.getAttribute('data-lang');
+        if (nextLang && nextLang !== I18N.getLang()) {
+          I18N.setLang(nextLang);
+          mountLayout();
+          return;
+        }
+        closeMenu();
       });
     });
+
+    trigger.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') closeMenu();
+    });
+
+    langDropdownOutsideClick = (event) => {
+      if (!root.contains(event.target)) closeMenu();
+    };
+    document.addEventListener('click', langDropdownOutsideClick);
   }
 
   function mountLayout() {
     const lang = I18N.getLang();
-    document.documentElement.lang = lang;
+    document.documentElement.lang = I18N.getHtmlLang(lang);
 
     const activeNav = document.body.dataset.nav || '';
     const headerMount = document.getElementById('site-header');

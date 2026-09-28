@@ -1,0 +1,1146 @@
+[
+  {
+    "path": "siteName",
+    "v": "2026首尔观光 ON Festa"
+  },
+  {
+    "path": "nav.intro",
+    "v": "活动介绍"
+  },
+  {
+    "path": "nav.program",
+    "v": "节目"
+  },
+  {
+    "path": "nav.performance",
+    "v": "演出"
+  },
+  {
+    "path": "nav.community",
+    "v": "社区"
+  },
+  {
+    "path": "nav.directions",
+    "v": "交通指南"
+  },
+  {
+    "path": "sub.timetable",
+    "v": "活动日程"
+  },
+  {
+    "path": "sub.venue",
+    "v": "节庆场地"
+  },
+  {
+    "path": "sub.notice",
+    "v": "公告"
+  },
+  {
+    "path": "sub.faq",
+    "v": "常见问题"
+  },
+  {
+    "path": "sub.overview",
+    "v": "活动概览"
+  },
+  {
+    "path": "sub.participate",
+    "v": "参与项目"
+  },
+  {
+    "path": "sub.sponsorZone",
+    "v": "特别体验区"
+  },
+  {
+    "path": "sub.exhibition",
+    "v": "展览项目"
+  },
+  {
+    "path": "sub.experience",
+    "v": "体验区"
+  },
+  {
+    "path": "sub.kPlay",
+    "v": "K-Play 区"
+  },
+  {
+    "path": "sub.soulSpot",
+    "v": "Soul Spot"
+  },
+  {
+    "path": "sub.stampTour",
+    "v": "盖章之旅"
+  },
+  {
+    "path": "sub.sponsor",
+    "v": "合作伙伴"
+  },
+  {
+    "path": "breadcrumb.home",
+    "v": "首页"
+  },
+  {
+    "path": "footer.addressLabel",
+    "v": "地址"
+  },
+  {
+    "path": "footer.address",
+    "v": "南山八角亭一带"
+  },
+  {
+    "path": "footer.phoneLabel",
+    "v": "咨询"
+  },
+  {
+    "path": "footer.phone",
+    "v": "02-2600-6455"
+  },
+  {
+    "path": "footer.privacy",
+    "v": "隐私政策"
+  },
+  {
+    "path": "footer.emailDeny",
+    "v": "拒绝未经授权收集电子邮件"
+  },
+  {
+    "path": "footer.copy",
+    "v": "© 2026 Seoul Tourism ON Festa. 保留所有权利。"
+  },
+  {
+    "path": "menuOpen",
+    "v": "打开菜单"
+  },
+  {
+    "path": "menuClose",
+    "v": "关闭菜单"
+  },
+  {
+    "path": "langLabel",
+    "v": "语言"
+  },
+  {
+    "path": "skipMain",
+    "v": "跳至正文"
+  },
+  {
+    "path": "comingSoon",
+    "v": "即将上线"
+  },
+  {
+    "path": "overviewPlaceholder",
+    "v": "即将上线"
+  },
+  {
+    "path": "overviewIntro.title1",
+    "v": "在南山遇见特别的首尔，"
+  },
+  {
+    "path": "overviewIntro.title2",
+    "v": "2026首尔观光 ON Festa"
+  },
+  {
+    "path": "overviewIntro.subtitleAlt",
+    "v": "在南山遇见特别的首尔"
+  },
+  {
+    "path": "overviewIntro.titleAlt",
+    "v": "2026首尔观光 ON Festa"
+  },
+  {
+    "path": "overviewIntro.p1",
+    "v": "在首尔代表性景点南山，<br>一处尽享<span class=\"overview-mark overview-mark--yellow\">韩国传统</span>与<span class=\"overview-mark overview-mark--yellow\">当代文化</span>！"
+  },
+  {
+    "path": "overviewIntro.p2",
+    "v": "热辣的 K-POP 与现场演出，<br>充满韩国风情与活力的传统文化表演，<br>人人可参与的 K 文化体验与传统民俗游戏！"
+  },
+  {
+    "path": "overviewIntro.p3",
+    "v": "畅玩多样节目、参加盖章之旅、收集印章，<br>带走<span class=\"overview-mark overview-mark--yellow\">特别纪念品</span>！"
+  },
+  {
+    "path": "overviewIntro.p4",
+    "v": "今年秋天，在南山<br><span class=\"overview-mark overview-mark--pink\">开启首尔之悦 ON</span>！"
+  },
+  {
+    "path": "timetable.titleAlt",
+    "v": "活动日程"
+  },
+  {
+    "path": "timetable.stage",
+    "v": "主舞台"
+  },
+  {
+    "path": "timetable.time",
+    "v": "时间"
+  },
+  {
+    "path": "timetable.day1",
+    "v": "10月2日（周五）"
+  },
+  {
+    "path": "timetable.day2",
+    "v": "10月3日（周六）"
+  },
+  {
+    "path": "timetable.caption",
+    "v": "主舞台时间表"
+  },
+  {
+    "path": "timetable.prep",
+    "v": "舞台准备"
+  },
+  {
+    "path": "timetable.prepTime",
+    "v": "准备时间"
+  },
+  {
+    "path": "timetable.closing",
+    "v": "舞台收尾"
+  },
+  {
+    "path": "timetable.opening",
+    "v": "开幕式"
+  },
+  {
+    "path": "timetable.rehearsal",
+    "v": "演出彩排"
+  },
+  {
+    "path": "timetable.kpopRehearsal",
+    "v": "K-pop 彩排"
+  },
+  {
+    "path": "timetable.c1300_fri",
+    "v": "ON MESSAGE"
+  },
+  {
+    "path": "timetable.c1300_sat_main",
+    "v": "民谣与四物乐表演"
+  },
+  {
+    "path": "timetable.c1300_sat_sub",
+    "v": "Yeonhee Jeomchuri（연희점추리）"
+  },
+  {
+    "path": "timetable.c1400_fri_main",
+    "v": "打击乐表演"
+  },
+  {
+    "path": "timetable.c1400_fri_sub",
+    "v": "Hwarang（화랑）"
+  },
+  {
+    "path": "timetable.c1400_sat_main",
+    "v": "朝鲜魔术团"
+  },
+  {
+    "path": "timetable.c1400_sat_sub",
+    "v": "Magic Troupe Dachae（魔术剧团 多采）"
+  },
+  {
+    "path": "timetable.c1500",
+    "v": "南山烽燧台传统表演"
+  },
+  {
+    "path": "timetable.c1600_fri_main",
+    "v": "Lion Special Forces Baeksujiwang（狮子特攻队 白水之王）"
+  },
+  {
+    "path": "timetable.c1600_fri_sub",
+    "v": "Yeonhee Jeomchuri（연희점추리）"
+  },
+  {
+    "path": "timetable.c1600_sat_main",
+    "v": "跆拳道表演"
+  },
+  {
+    "path": "timetable.c1600_sat_sub",
+    "v": "Bigabi（비가비）"
+  },
+  {
+    "path": "timetable.c1700_fri_main",
+    "v": "Namsan Rhythm Challenge（南山节奏挑战）"
+  },
+  {
+    "path": "timetable.c1700_fri_sub",
+    "v": "Yeonhee Jeomchuri（연희점추리）"
+  },
+  {
+    "path": "timetable.c1700_sat_main",
+    "v": "K-pop 演出"
+  },
+  {
+    "path": "timetable.c1700_sat_sub",
+    "v": "1MILLION [Amazon]"
+  },
+  {
+    "path": "timetable.c1730_sat_main",
+    "v": "K-pop 课堂"
+  },
+  {
+    "path": "timetable.c1730_sat_sub",
+    "v": "1MILLION [Amazon]"
+  },
+  {
+    "path": "timetable.c1800_fri_main",
+    "v": "经典伽倻琴"
+  },
+  {
+    "path": "timetable.c1800_fri_sub",
+    "v": "Gaonsori（가온소리）"
+  },
+  {
+    "path": "timetable.c1830_fri_main",
+    "v": "歌手演出"
+  },
+  {
+    "path": "timetable.c1830_fri_sub",
+    "v": "Min Kyung-hoon（闵庚勋）"
+  },
+  {
+    "path": "timetable.c1830_sat_main",
+    "v": "韩国传统 B-boy 秀"
+  },
+  {
+    "path": "timetable.c1830_sat_sub",
+    "v": "S.P.L.A.V.A"
+  },
+  {
+    "path": "timetable.c1900_sat_main",
+    "v": "歌手演出"
+  },
+  {
+    "path": "timetable.c1900_sat_sub",
+    "v": "The Dickpunks"
+  },
+  {
+    "path": "directions.titleAlt",
+    "v": "交通指南"
+  },
+  {
+    "path": "directions.venueTitle",
+    "v": "节庆场地"
+  },
+  {
+    "path": "directions.venueSub",
+    "v": "南山八角亭一带"
+  },
+  {
+    "path": "directions.mapAlt",
+    "v": "南山八角亭附近节庆场地位置地图"
+  },
+  {
+    "path": "directions.transitTitle",
+    "v": "公共交通"
+  },
+  {
+    "path": "directions.transitSub",
+    "v": "地铁与巴士最为便捷。"
+  },
+  {
+    "path": "directions.chungmuroTitle",
+    "v": "忠武路站（3·4号线）"
+  },
+  {
+    "path": "directions.chungmuroDesc",
+    "v": "2号出口 → 巴士 01A·01B → 南山首尔塔站 → 八角亭"
+  },
+  {
+    "path": "directions.donggukTitle",
+    "v": "东国大学站（3号线）"
+  },
+  {
+    "path": "directions.donggukDesc",
+    "v": "6号出口 → 巴士 01A·01B → 南山首尔塔站 → 八角亭"
+  },
+  {
+    "path": "directions.myeongdongTitle",
+    "v": "明洞站（4号线）"
+  },
+  {
+    "path": "directions.myeongdongDesc",
+    "v": "3号出口 → 南山缆车 → 上站 → 八角亭"
+  },
+  {
+    "path": "directions.carTitle",
+    "v": "自驾"
+  },
+  {
+    "path": "directions.carDesc",
+    "v": "南山山顶道路限制私家车通行。"
+  },
+  {
+    "path": "directions.carNote",
+    "v": "请尽量使用公共交通。"
+  },
+  {
+    "path": "directions.naverMap",
+    "v": "在 Naver 地图中打开"
+  },
+  {
+    "path": "venuePage.titleAlt",
+    "v": "节庆场地"
+  },
+  {
+    "path": "venuePage.mapHeading",
+    "v": "节庆场地地图"
+  },
+  {
+    "path": "venuePage.mapAlt",
+    "v": "南山节庆场地地图 — K-Play 区、亮片拍照区、涂色墙、主舞台与体验展位"
+  },
+  {
+    "path": "venuePage.exhibitionHead",
+    "v": "展览项目"
+  },
+  {
+    "path": "venuePage.benton",
+    "v": "BENTON"
+  },
+  {
+    "path": "venuePage.hikeLogoAlt",
+    "v": "HIKE SEOUL"
+  },
+  {
+    "path": "venuePage.coloringWall",
+    "v": "涂色墙"
+  },
+  {
+    "path": "venuePage.spanglePhoto",
+    "v": "亮片拍照区"
+  },
+  {
+    "path": "venuePage.soulDesc",
+    "v": "体验 Soul Spot AR 无人机秀与 AI 推荐路线！"
+  },
+  {
+    "path": "venuePage.soulNote",
+    "v": "体验后可领取照片卡；参与 SNS 认证还可获得纪念明信片。"
+  },
+  {
+    "path": "venuePage.exp1",
+    "v": "韩文名工作室与数字漫画肖像"
+  },
+  {
+    "path": "venuePage.exp2",
+    "v": "河回面具钥匙扣制作"
+  },
+  {
+    "path": "venuePage.exp6",
+    "v": "书法明信片制作"
+  },
+  {
+    "path": "venuePage.exp7",
+    "v": "面部彩绘"
+  },
+  {
+    "path": "venuePage.exp8",
+    "v": "Catch the “8” Pavilion（抓住“8” Pavilion）"
+  },
+  {
+    "path": "venuePage.tuho",
+    "v": "投壶（Tuho）"
+  },
+  {
+    "path": "programParticipate.titleAlt",
+    "v": "参与项目"
+  },
+  {
+    "path": "programParticipate.tabListLabel",
+    "v": "参与项目"
+  },
+  {
+    "path": "programParticipate.tabKpop",
+    "v": "K-POP Class Challenge"
+  },
+  {
+    "path": "programParticipate.tabRhythm",
+    "v": "Namsan Rhythm Challenge（南山节奏挑战）"
+  },
+  {
+    "path": "programParticipate.metaDate",
+    "v": "日期与时间"
+  },
+  {
+    "path": "programParticipate.metaPlace",
+    "v": "地点"
+  },
+  {
+    "path": "programParticipate.imagePlaceholder",
+    "v": "图片"
+  },
+  {
+    "path": "programParticipate.kpopPhotoAlt",
+    "v": "节庆 K-POP Class Challenge 现场"
+  },
+  {
+    "path": "programParticipate.rhythmPhotoAlt",
+    "v": "Namsan Rhythm Challenge 面具舞体验"
+  },
+  {
+    "path": "programParticipate.kpopTitle",
+    "v": "K-POP Class Challenge"
+  },
+  {
+    "path": "programParticipate.kpopLead",
+    "v": "南山一日 K-POP 舞蹈课堂！"
+  },
+  {
+    "path": "programParticipate.kpopDesc",
+    "v": "欣赏 ONE MILLION AMAZON 的演出，并亲自学习 K-POP 编舞。\n特别环节：一起学习并表演 ATEEZ 的《BAD》！\n零基础也欢迎——人人可跟跳。\n观看、学习、一起舞动，感受 K-POP 的能量！"
+  },
+  {
+    "path": "programParticipate.kpopDate",
+    "v": "2026年10月3日（周六）· 17:30–18:00"
+  },
+  {
+    "path": "programParticipate.kpopPlace",
+    "v": "主舞台，南山八角亭"
+  },
+  {
+    "path": "programParticipate.rhythmTitle",
+    "v": "Namsan Rhythm Challenge（南山节奏挑战）"
+  },
+  {
+    "path": "programParticipate.rhythmLead",
+    "v": "南山活力面具舞时间！"
+  },
+  {
+    "path": "programParticipate.rhythmDesc",
+    "v": "与 Yeonhuijeomchuri（연희점추리）一起戴上面具，随节奏学习假面舞（talchum）。\n简单有力的节拍与动作，新手也能跟上。\n不只是观看——一起跳，共享互动时刻。\n在南山感受韩国传统的喜悦与精神！"
+  },
+  {
+    "path": "programParticipate.rhythmDate",
+    "v": "2026年10月2日（周五）· 17:00–17:30"
+  },
+  {
+    "path": "programParticipate.rhythmPlace",
+    "v": "主舞台，南山八角亭"
+  },
+  {
+    "path": "exhibitionPage.titleAlt",
+    "v": "展览项目"
+  },
+  {
+    "path": "experiencePage.titleAlt",
+    "v": "体验区"
+  },
+  {
+    "path": "experiencePage.namingTitle",
+    "v": "韩文名工作室 × 数字漫画肖像"
+  },
+  {
+    "path": "experiencePage.namingDesc",
+    "v": "一张卡片上拥有专属韩文名与漫画肖像！\n为您绘制数字漫画肖像并取个性化韩文名，制成一张纪念卡。"
+  },
+  {
+    "path": "experiencePage.namingPhotoAlt",
+    "v": "韩文名工作室与数字漫画肖像展位"
+  },
+  {
+    "path": "experiencePage.hahoeTitle",
+    "v": "河回面具钥匙扣制作"
+  },
+  {
+    "path": "experiencePage.hahoeDesc",
+    "v": "装饰传统河回面具，制作专属钥匙扣！\n用缤纷点缀装饰河回面具钥匙扣，完成后带回家作纪念。"
+  },
+  {
+    "path": "experiencePage.hahoePhotoAlt",
+    "v": "河回面具钥匙扣制作展位"
+  },
+  {
+    "path": "experiencePage.catchEightTitle",
+    "v": "Catch the “8” Pavilion（抓住“8” Pavilion）"
+  },
+  {
+    "path": "experiencePage.catchEightDesc",
+    "v": "在 8 秒停表——南山惊险计时挑战！\n按下按钮开始计时，尽量在 8 秒停下。简单易玩，人人可享。"
+  },
+  {
+    "path": "experiencePage.catchEightPhotoAlt",
+    "v": "Catch the 8 计时游戏展位"
+  },
+  {
+    "path": "experiencePage.calligraphyTitle",
+    "v": "书法明信片制作"
+  },
+  {
+    "path": "experiencePage.calligraphyDesc",
+    "v": "专业书法家现场用韩文书写您选择的词句，将韩文之美带回家作纪念。"
+  },
+  {
+    "path": "experiencePage.calligraphyPhotoAlt",
+    "v": "书法明信片制作体验"
+  },
+  {
+    "path": "experiencePage.facePaintingTitle",
+    "v": "面部彩绘"
+  },
+  {
+    "path": "experiencePage.facePaintingDesc",
+    "v": "多种图案面部彩绘，为节庆气氛增添更多乐趣。"
+  },
+  {
+    "path": "experiencePage.facePaintingPhotoAlt",
+    "v": "面部彩绘展位"
+  },
+  {
+    "path": "kPlayPage.titleAlt",
+    "v": "K-Play 区"
+  },
+  {
+    "path": "kPlayPage.sectionLead",
+    "v": "K-Play 区（全天开放）"
+  },
+  {
+    "path": "kPlayPage.yutTitle",
+    "v": "掷柶（Yutnori）"
+  },
+  {
+    "path": "kPlayPage.yutPhotoAlt",
+    "v": "K-Play 区的掷柶"
+  },
+  {
+    "path": "kPlayPage.gonggiTitle",
+    "v": "抓石子（Gonggi-nori）"
+  },
+  {
+    "path": "kPlayPage.gonggiPhotoAlt",
+    "v": "K-Play 区的抓石子"
+  },
+  {
+    "path": "kPlayPage.jegiTitle",
+    "v": "毽球（Jegichagi）"
+  },
+  {
+    "path": "kPlayPage.jegiPhotoAlt",
+    "v": "K-Play 区的毽球"
+  },
+  {
+    "path": "kPlayPage.tuhoTitle",
+    "v": "投壶（Tuho）"
+  },
+  {
+    "path": "kPlayPage.tuhoPhotoAlt",
+    "v": "K-Play 区的投壶"
+  },
+  {
+    "path": "soulSpotPage.titleAlt",
+    "v": "Soul Spot"
+  },
+  {
+    "path": "soulSpotPage.lead",
+    "v": "南山特别 AR 首尔之旅 — Soul Spot！"
+  },
+  {
+    "path": "soulSpotPage.p1",
+    "v": "在手机上享受 AR 无人机秀与游戏，还有依喜好定制的 AI 推荐路线。"
+  },
+  {
+    "path": "soulSpotPage.p2",
+    "v": "体验多样内容、收集照片卡，参与 SNS 认证与问卷即可领取纪念品。"
+  },
+  {
+    "path": "soulSpotPage.p3",
+    "v": "从南山出发，开启发现首尔新魅力的旅程！"
+  },
+  {
+    "path": "soulSpotPage.photoAlt",
+    "v": "南山 AR 展位与游客在 AR 拍照区使用智能手机，背景为南山首尔塔"
+  },
+  {
+    "path": "stampTourPage.titleAlt",
+    "v": "盖章之旅"
+  },
+  {
+    "path": "stampTourPage.lead",
+    "v": "盖章之旅完成活动"
+  },
+  {
+    "path": "stampTourPage.desc",
+    "v": "在南山畅玩体验、收集印章，带走纪念品！\n领取活动宣传册，前往体验展位与特别体验区参与项目并盖章。完成盖章之旅即可获赠节庆特别礼物。"
+  },
+  {
+    "path": "stampTourPage.photoAlt",
+    "v": "2026 Seoul Tourism ON Festa 盖章之旅宣传册指南"
+  },
+  {
+    "path": "stampTourPage.stampsIntro",
+    "v": "在五个体验展位收集印章！"
+  },
+  {
+    "path": "stampTourPage.stamp1",
+    "v": "展览项目"
+  },
+  {
+    "path": "stampTourPage.stamp2",
+    "v": "K-Play 区"
+  },
+  {
+    "path": "stampTourPage.stamp3",
+    "v": "体验区"
+  },
+  {
+    "path": "stampTourPage.stamp4",
+    "v": "特别体验区"
+  },
+  {
+    "path": "stampTourPage.stamp5",
+    "v": "Soul Spot"
+  },
+  {
+    "path": "stampTourPage.infoHoursLabel",
+    "v": "体验展位开放时间"
+  },
+  {
+    "path": "stampTourPage.infoHoursBody",
+    "v": "体验展位开放时间为 13:00 至 18:00。"
+  },
+  {
+    "path": "stampTourPage.infoParticipateLabel",
+    "v": "项目参与"
+  },
+  {
+    "path": "stampTourPage.infoParticipateBody",
+    "v": "所有演出与体验项目均可免费参与。"
+  },
+  {
+    "path": "stampTourPage.infoProgramLabel",
+    "v": "体验项目"
+  },
+  {
+    "path": "stampTourPage.infoProgramBody",
+    "v": "部分体验项目材料用尽时可能提前结束。"
+  },
+  {
+    "path": "stampTourPage.infoOperationLabel",
+    "v": "运营"
+  },
+  {
+    "path": "stampTourPage.infoOperationBody",
+    "v": "活动项目与营业时间可能因现场情况而变更。"
+  },
+  {
+    "path": "sponsorZonePage.titleAlt",
+    "v": "特别体验区"
+  },
+  {
+    "path": "sponsorZonePage.bentonBrand",
+    "v": "BENTON"
+  },
+  {
+    "path": "sponsorZonePage.bentonLead",
+    "v": "南山 K-beauty 体验"
+  },
+  {
+    "path": "sponsorZonePage.bentonDesc",
+    "v": "在本 K-beauty 体验项目中亲自试用 Benton 产品并参与活动，带走礼品。"
+  },
+  {
+    "path": "sponsorZonePage.bentonPhotoAlt",
+    "v": "节庆 BENTON 特别体验区展位"
+  },
+  {
+    "path": "sponsorZonePage.hikeBrand",
+    "v": "HIKE SEOUL"
+  },
+  {
+    "path": "sponsorZonePage.hikeLead",
+    "v": "南山 SEOUL HIKING 体验"
+  },
+  {
+    "path": "sponsorZonePage.hikeDesc",
+    "v": "穿戴首尔城市登山旅游中心的登山装备，拍摄南山登山主题人生四格，在本拍照体验项目中感受首尔 K-HIKING。"
+  },
+  {
+    "path": "sponsorZonePage.hikePhotoAlt",
+    "v": "节庆 HIKE SEOUL 特别体验区展位"
+  },
+  {
+    "path": "sponsorPage.titleAlt",
+    "v": "合作伙伴"
+  },
+  {
+    "path": "sponsorPage.bentonLogo",
+    "v": "BENTON"
+  },
+  {
+    "path": "sponsorPage.bentonLead",
+    "v": "在南山遇见守护健康肌肤的 K-beauty 品牌 BENTON！"
+  },
+  {
+    "path": "sponsorPage.bentonDesc",
+    "v": "灵感来自电影《本杰明·巴顿奇事》，Benton 是致力于让肌肤重拾时光、恢复健康本色的护肤品牌。\n从企划阶段起即排除有争议的有害成分，坚持选用芦荟、蜗牛黏液等优质天然成分，即使敏感肌也可安心使用。\n获得无动物实验 Cruelty-Free 认证，并积极采用环保包装——践行关爱肌肤与地球的洁净美妆。"
+  },
+  {
+    "path": "sponsorPage.bentonEventTitle",
+    "v": "BENTON × ON Festa SNS EVENT"
+  },
+  {
+    "path": "sponsorPage.bentonEventDesc",
+    "v": "现场试用产品并关注 BENTON 官方 Instagram！\n发布使用产品的照片，标记 @bentoncosmetic，并添加 #GlowOnNamsan 即可参与。\n前 20 名参与者将获得 BENTON 正装产品。"
+  },
+  {
+    "path": "sponsorPage.bentonClosing",
+    "v": "南山 K-BEAUTY 体验！\n看、试、分享——与 BENTON 一起完成您的特别首尔时刻。"
+  },
+  {
+    "path": "sponsorPage.hikeLogoMain",
+    "v": "HIKE SEOUL"
+  },
+  {
+    "path": "sponsorPage.hikeLogoSub",
+    "v": "Seoul Urban Hiking（首尔城市登山）"
+  },
+  {
+    "path": "sponsorPage.hikeLogoAlt",
+    "v": "HIKE SEOUL"
+  },
+  {
+    "path": "sponsorPage.hikeLead",
+    "v": "探索首尔群山的新方式 — SEOUL HIKING"
+  },
+  {
+    "path": "sponsorPage.hikeDesc",
+    "v": "首尔城市登山旅游中心将首尔美丽的群山与城市相连，帮助访客轻松享受登山文化。\n从登山信息与装备租赁到体验项目，将首尔步道呈现为独特的城市观光内容。"
+  },
+  {
+    "path": "sponsorPage.hikeSubLead",
+    "v": "南山特别 K-HIKING"
+  },
+  {
+    "path": "sponsorPage.hikeEventDesc",
+    "v": "在 2026 Seoul Tourism ON Festa，与首尔城市登山旅游中心一起享受特别 K-HIKING 体验。\n试穿夹克、帽子、背包、登山杖等，打造您的 K-HIKING LOOK，在南山山顶定格瞬间。套用 HIKE SEOUL 相框，珍藏首尔登山回忆。"
+  },
+  {
+    "path": "sponsorPage.hikeClosing",
+    "v": "城市与自然相遇的全新首尔之旅——\n在南山体验 SEOUL HIKING！"
+  },
+  {
+    "path": "performancePage.heading",
+    "v": "主舞台演出"
+  },
+  {
+    "path": "performancePage.day1Label",
+    "v": "10月2日（周五）"
+  },
+  {
+    "path": "performancePage.day2Label",
+    "v": "10月3日（周六）"
+  },
+  {
+    "path": "performancePage.gaonsoriTime",
+    "v": "18:00–18:30"
+  },
+  {
+    "path": "performancePage.gaonsoriName",
+    "v": "Gugak & Classical Ensemble Gaonsori（国乐与古典合奏 gaonso ri）"
+  },
+  {
+    "path": "performancePage.gaonsoriAlt",
+    "v": "Gugak & Classical Ensemble Gaonsori"
+  },
+  {
+    "path": "performancePage.minkyungTime",
+    "v": "18:30–19:00"
+  },
+  {
+    "path": "performancePage.minkyungName",
+    "v": "Min Kyung-hoon（闵庚勋）"
+  },
+  {
+    "path": "performancePage.minkyungAlt",
+    "v": "歌手 Min Kyung-hoon"
+  },
+  {
+    "path": "performancePage.amazonTime",
+    "v": "17:00–18:00"
+  },
+  {
+    "path": "performancePage.amazonName",
+    "v": "1MILLION [Amazon]"
+  },
+  {
+    "path": "performancePage.amazonAlt",
+    "v": "1MILLION [Amazon]"
+  },
+  {
+    "path": "performancePage.dickpunksTime",
+    "v": "19:00–19:30"
+  },
+  {
+    "path": "performancePage.dickpunksName",
+    "v": "DickPunks"
+  },
+  {
+    "path": "performancePage.dickpunksAlt",
+    "v": "Band DickPunks"
+  },
+  {
+    "path": "performancePage.hwaryeoTime",
+    "v": "14:00–14:30"
+  },
+  {
+    "path": "performancePage.hwaryeoName",
+    "v": "打击乐 — Hwaryeo（화랑）"
+  },
+  {
+    "path": "performancePage.hwaryeoAlt",
+    "v": "打击乐表演 Hwaryeo"
+  },
+  {
+    "path": "performancePage.namsanBeaconTime",
+    "v": "15:00–15:30"
+  },
+  {
+    "path": "performancePage.namsanBeaconName",
+    "v": "南山烽燧台传统表演"
+  },
+  {
+    "path": "performancePage.namsanBeaconAlt",
+    "v": "南山烽燧台传统表演"
+  },
+  {
+    "path": "performancePage.baeksujiwangTime",
+    "v": "16:00–17:00"
+  },
+  {
+    "path": "performancePage.baeksujiwangName",
+    "v": "Lion Special Forces Baeksujiwang · Yeonhee Jeomchuri"
+  },
+  {
+    "path": "performancePage.baeksujiwangAlt",
+    "v": "Baeksujiwang · Yeonhee Jeomchuri"
+  },
+  {
+    "path": "performancePage.dachaeTime",
+    "v": "14:00–14:30"
+  },
+  {
+    "path": "performancePage.dachaeName",
+    "v": "Joseon Magic Troupe · Dachae"
+  },
+  {
+    "path": "performancePage.dachaeAlt",
+    "v": "Magic Troupe Dachae"
+  },
+  {
+    "path": "performancePage.esplavaTime",
+    "v": "18:30–19:00"
+  },
+  {
+    "path": "performancePage.esplavaName",
+    "v": "Gugak B-boy · S-Flava"
+  },
+  {
+    "path": "performancePage.esplavaAlt",
+    "v": "S-Flava 演出"
+  },
+  {
+    "path": "faq.q1",
+    "v": "需要门票吗？"
+  },
+  {
+    "path": "faq.a1",
+    "v": "无需门票，可免费参加。\n演出与现场体验项目也均免费。"
+  },
+  {
+    "path": "faq.q2",
+    "v": "可以停车吗？"
+  },
+  {
+    "path": "faq.a2",
+    "v": "一般车辆无法进入南山山顶场地或停车。\n建议使用公共交通或南山缆车。"
+  },
+  {
+    "path": "faq.q3",
+    "v": "雨天会照常举办吗？"
+  },
+  {
+    "path": "faq.a3",
+    "v": "小雨：预计按日程进行。\n强风、大雨等情况下部分项目可能变更或取消；最新信息将发布于网站。"
+  },
+  {
+    "path": "privacyPage.pageTitle",
+    "v": "隐私政策"
+  },
+  {
+    "path": "privacyPage.lead",
+    "v": "2026 Seoul Tourism ON Festa（以下简称“本活动”）遵守相关隐私法律法规，并公布本隐私政策以保护参与者个人信息。"
+  },
+  {
+    "path": "privacyPage.s1Title",
+    "v": "1. 处理目的"
+  },
+  {
+    "path": "privacyPage.s1Body",
+    "v": "我们为以下目的处理个人信息。信息不会用于下述目的之外；若目的变更，将依法取得同意。"
+  },
+  {
+    "path": "privacyPage.s1Item1",
+    "v": "活动报名与身份核实"
+  },
+  {
+    "path": "privacyPage.s1Item2",
+    "v": "盖章之旅、奖品、纪念品及其他活动运营"
+  },
+  {
+    "path": "privacyPage.s1Item3",
+    "v": "活动公告、咨询与沟通"
+  },
+  {
+    "path": "privacyPage.s1Item4",
+    "v": "运营、安全与统计分析"
+  },
+  {
+    "path": "privacyPage.s2Title",
+    "v": "2. 收集项目"
+  },
+  {
+    "path": "privacyPage.s2Body",
+    "v": "我们仅收集必要最少信息；因项目或活动不同，收集项可能有所差异。"
+  },
+  {
+    "path": "privacyPage.s2Item1",
+    "v": "必填：姓名、联系电话"
+  },
+  {
+    "path": "privacyPage.s2Item2",
+    "v": "选填：电子邮件、国籍、项目参与详情"
+  },
+  {
+    "path": "privacyPage.s2Item3",
+    "v": "自动：访问日志、Cookie、IP 地址（使用网站时）"
+  },
+  {
+    "path": "privacyPage.s3Title",
+    "v": "3. 保留期限"
+  },
+  {
+    "path": "privacyPage.s3Body",
+    "v": "目的达成后我们将及时销毁个人信息，法律要求保留的除外。"
+  },
+  {
+    "path": "privacyPage.s4Title",
+    "v": "4. 向第三方提供"
+  },
+  {
+    "path": "privacyPage.s4Body",
+    "v": "除事先同意外或法律要求外，我们不会向第三方提供个人信息。"
+  },
+  {
+    "path": "privacyPage.s5Title",
+    "v": "5. 处理委托"
+  },
+  {
+    "path": "privacyPage.s5Body",
+    "v": "若委托第三方处理，我们将公开受托方与任务内容，并依法律与合同保护数据。"
+  },
+  {
+    "path": "privacyPage.s6Title",
+    "v": "6. 您的权利"
+  },
+  {
+    "path": "privacyPage.s6Body",
+    "v": "您可申请查阅、更正、删除或停止处理。请联系下列负责人；我们将及时回复。"
+  },
+  {
+    "path": "privacyPage.s7Title",
+    "v": "7. 隐私负责人"
+  },
+  {
+    "path": "privacyPage.s7Body",
+    "v": "有关个人信息的投诉与救济，请联系："
+  },
+  {
+    "path": "privacyPage.s7Item1",
+    "v": "部门：2026 Seoul Tourism ON Festa 运营事务局"
+  },
+  {
+    "path": "privacyPage.s7Item2",
+    "v": "电话：+82-2-2600-6455"
+  },
+  {
+    "path": "privacyPage.s8Title",
+    "v": "8. 政策变更"
+  },
+  {
+    "path": "privacyPage.s8Body",
+    "v": "我们可能更新本政策，变更内容将发布于网站。"
+  },
+  {
+    "path": "privacyPage.effective",
+    "v": "生效日期：2026年1月1日"
+  },
+  {
+    "path": "noticePage.listCaption",
+    "v": "活动公告"
+  },
+  {
+    "path": "noticePage.tableCaption",
+    "v": "公告列表"
+  },
+  {
+    "path": "noticePage.colNum",
+    "v": "序号"
+  },
+  {
+    "path": "noticePage.colTitle",
+    "v": "标题"
+  },
+  {
+    "path": "noticePage.colDate",
+    "v": "日期"
+  },
+  {
+    "path": "noticePage.pinLabel",
+    "v": "公告"
+  },
+  {
+    "path": "noticePage.empty",
+    "v": "暂无公告。"
+  },
+  {
+    "path": "noticePage.loadError",
+    "v": "无法加载公告，请稍后再试。"
+  },
+  {
+    "path": "noticePage.notFound",
+    "v": "未找到该公告。"
+  },
+  {
+    "path": "noticePage.backToList",
+    "v": "返回列表"
+  },
+  {
+    "path": "noticePage.prev",
+    "v": "上一篇"
+  },
+  {
+    "path": "noticePage.next",
+    "v": "下一篇"
+  },
+  {
+    "path": "emailDenyPage.pageTitle",
+    "v": "拒绝未经授权收集电子邮件"
+  },
+  {
+    "path": "emailDenyPage.p1",
+    "v": "我们拒绝使用自动程序或其他手段未经授权收集本网站公布的电子邮件地址。违反者可能依据韩国相关法律受到刑事处罚。"
+  },
+  {
+    "path": "emailDenyPage.p2",
+    "v": "依据《信息通信网利用促进及信息保护等相关法律》等，未经网站运营者事先同意，不得自动收集、提取、注册、使用、出售或共享电子邮件地址。"
+  },
+  {
+    "path": "emailDenyPage.p3",
+    "v": "2026 Seoul Tourism ON Festa 官方网站上的所有电子邮件地址均拒绝未经授权的收集；向违法收集的地址发送信息可能受到处罚。"
+  },
+  {
+    "path": "emailDenyPage.notice",
+    "v": "发布日期：2026年1月1日"
+  }
+]

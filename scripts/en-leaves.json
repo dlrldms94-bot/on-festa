@@ -1,0 +1,1146 @@
+[
+  {
+    "path": "siteName",
+    "v": "2026 Seoul Tourism ON Festa"
+  },
+  {
+    "path": "nav.intro",
+    "v": "About"
+  },
+  {
+    "path": "nav.program",
+    "v": "Program"
+  },
+  {
+    "path": "nav.performance",
+    "v": "Performance"
+  },
+  {
+    "path": "nav.community",
+    "v": "Community"
+  },
+  {
+    "path": "nav.directions",
+    "v": "Location"
+  },
+  {
+    "path": "sub.timetable",
+    "v": "Event Schedule"
+  },
+  {
+    "path": "sub.venue",
+    "v": "Venue"
+  },
+  {
+    "path": "sub.notice",
+    "v": "Notice"
+  },
+  {
+    "path": "sub.faq",
+    "v": "FAQ"
+  },
+  {
+    "path": "sub.overview",
+    "v": "Overview"
+  },
+  {
+    "path": "sub.participate",
+    "v": "Participation Programs"
+  },
+  {
+    "path": "sub.sponsorZone",
+    "v": "Special Experience Zone"
+  },
+  {
+    "path": "sub.exhibition",
+    "v": "Exhibition Program"
+  },
+  {
+    "path": "sub.experience",
+    "v": "Experience Zone"
+  },
+  {
+    "path": "sub.kPlay",
+    "v": "K-Play Zone"
+  },
+  {
+    "path": "sub.soulSpot",
+    "v": "Soul Spot"
+  },
+  {
+    "path": "sub.stampTour",
+    "v": "Stamp Tour"
+  },
+  {
+    "path": "sub.sponsor",
+    "v": "Partners"
+  },
+  {
+    "path": "breadcrumb.home",
+    "v": "Home"
+  },
+  {
+    "path": "footer.addressLabel",
+    "v": "Address"
+  },
+  {
+    "path": "footer.address",
+    "v": "Namsan Palgakjeong Pavilion area"
+  },
+  {
+    "path": "footer.phoneLabel",
+    "v": "Contact"
+  },
+  {
+    "path": "footer.phone",
+    "v": "02-2600-6455"
+  },
+  {
+    "path": "footer.privacy",
+    "v": "Privacy Policy"
+  },
+  {
+    "path": "footer.emailDeny",
+    "v": "No Unauthorized Email Collection"
+  },
+  {
+    "path": "footer.copy",
+    "v": "© 2026 Seoul Tourism ON Festa. All rights reserved."
+  },
+  {
+    "path": "menuOpen",
+    "v": "Open menu"
+  },
+  {
+    "path": "menuClose",
+    "v": "Close menu"
+  },
+  {
+    "path": "langLabel",
+    "v": "Language"
+  },
+  {
+    "path": "skipMain",
+    "v": "Skip to content"
+  },
+  {
+    "path": "comingSoon",
+    "v": "Coming Soon"
+  },
+  {
+    "path": "overviewPlaceholder",
+    "v": "Coming Soon"
+  },
+  {
+    "path": "overviewIntro.title1",
+    "v": "A special Seoul at Namsan,"
+  },
+  {
+    "path": "overviewIntro.title2",
+    "v": "2026 Seoul Tourism ON Festa"
+  },
+  {
+    "path": "overviewIntro.subtitleAlt",
+    "v": "A special Seoul at Namsan"
+  },
+  {
+    "path": "overviewIntro.titleAlt",
+    "v": "2026 Seoul Tourism ON Festa"
+  },
+  {
+    "path": "overviewIntro.p1",
+    "v": "At Namsan, one of Seoul’s iconic destinations,<br>enjoy <span class=\"overview-mark overview-mark--yellow\">Korea’s tradition</span> and <span class=\"overview-mark overview-mark--yellow\">contemporary culture</span> all in one place!"
+  },
+  {
+    "path": "overviewIntro.p2",
+    "v": "Exciting K-POP and live performances,<br>traditional shows full of Korean charm and energy,<br>K-culture experiences and folk games everyone can join!"
+  },
+  {
+    "path": "overviewIntro.p3",
+    "v": "Enjoy diverse programs, join the stamp tour, collect stamps,<br>and take home <span class=\"overview-mark overview-mark--yellow\">special souvenirs</span>!"
+  },
+  {
+    "path": "overviewIntro.p4",
+    "v": "This fall at Namsan,<br><span class=\"overview-mark overview-mark--pink\">turn ON the joy of Seoul</span>!"
+  },
+  {
+    "path": "timetable.titleAlt",
+    "v": "Event Schedule"
+  },
+  {
+    "path": "timetable.stage",
+    "v": "Main Stage"
+  },
+  {
+    "path": "timetable.time",
+    "v": "Time"
+  },
+  {
+    "path": "timetable.day1",
+    "v": "Oct 2 (Fri)"
+  },
+  {
+    "path": "timetable.day2",
+    "v": "Oct 3 (Sat)"
+  },
+  {
+    "path": "timetable.caption",
+    "v": "Main stage timetable"
+  },
+  {
+    "path": "timetable.prep",
+    "v": "Stage setup"
+  },
+  {
+    "path": "timetable.prepTime",
+    "v": "Preparation time"
+  },
+  {
+    "path": "timetable.closing",
+    "v": "Stage closing"
+  },
+  {
+    "path": "timetable.opening",
+    "v": "Opening ceremony"
+  },
+  {
+    "path": "timetable.rehearsal",
+    "v": "Performance rehearsal"
+  },
+  {
+    "path": "timetable.kpopRehearsal",
+    "v": "K-pop rehearsal"
+  },
+  {
+    "path": "timetable.c1300_fri",
+    "v": "ON MESSAGE"
+  },
+  {
+    "path": "timetable.c1300_sat_main",
+    "v": "Folk songs & samulnori performance"
+  },
+  {
+    "path": "timetable.c1300_sat_sub",
+    "v": "Yeonhee Jeomchuri"
+  },
+  {
+    "path": "timetable.c1400_fri_main",
+    "v": "Percussion performance"
+  },
+  {
+    "path": "timetable.c1400_fri_sub",
+    "v": "Hwarang"
+  },
+  {
+    "path": "timetable.c1400_sat_main",
+    "v": "Joseon magic troupe"
+  },
+  {
+    "path": "timetable.c1400_sat_sub",
+    "v": "Magic Troupe Dachae"
+  },
+  {
+    "path": "timetable.c1500",
+    "v": "Namsan beacon-fire traditional performance"
+  },
+  {
+    "path": "timetable.c1600_fri_main",
+    "v": "Lion Special Forces Baeksujiwang"
+  },
+  {
+    "path": "timetable.c1600_fri_sub",
+    "v": "Yeonhee Jeomchuri"
+  },
+  {
+    "path": "timetable.c1600_sat_main",
+    "v": "Taekwondo performance"
+  },
+  {
+    "path": "timetable.c1600_sat_sub",
+    "v": "Bigabi"
+  },
+  {
+    "path": "timetable.c1700_fri_main",
+    "v": "Namsan Rhythm Challenge"
+  },
+  {
+    "path": "timetable.c1700_fri_sub",
+    "v": "Yeonhee Jeomchuri"
+  },
+  {
+    "path": "timetable.c1700_sat_main",
+    "v": "K-pop performance"
+  },
+  {
+    "path": "timetable.c1700_sat_sub",
+    "v": "One Million [Amazon]"
+  },
+  {
+    "path": "timetable.c1730_sat_main",
+    "v": "K-pop class"
+  },
+  {
+    "path": "timetable.c1730_sat_sub",
+    "v": "One Million [Amazon]"
+  },
+  {
+    "path": "timetable.c1800_fri_main",
+    "v": "Classic gayageum"
+  },
+  {
+    "path": "timetable.c1800_fri_sub",
+    "v": "Gaonsori"
+  },
+  {
+    "path": "timetable.c1830_fri_main",
+    "v": "Singer performance"
+  },
+  {
+    "path": "timetable.c1830_fri_sub",
+    "v": "Min Kyung-hoon"
+  },
+  {
+    "path": "timetable.c1830_sat_main",
+    "v": "Korean traditional B-boy show"
+  },
+  {
+    "path": "timetable.c1830_sat_sub",
+    "v": "S.P.L.A.V.A"
+  },
+  {
+    "path": "timetable.c1900_sat_main",
+    "v": "Singer performance"
+  },
+  {
+    "path": "timetable.c1900_sat_sub",
+    "v": "The Dickpunks"
+  },
+  {
+    "path": "directions.titleAlt",
+    "v": "Location"
+  },
+  {
+    "path": "directions.venueTitle",
+    "v": "Venue"
+  },
+  {
+    "path": "directions.venueSub",
+    "v": "Namsan Palgakjeong Pavilion area"
+  },
+  {
+    "path": "directions.mapAlt",
+    "v": "Map showing the festival venue near Namsan Palgakjeong Pavilion"
+  },
+  {
+    "path": "directions.transitTitle",
+    "v": "Public transit"
+  },
+  {
+    "path": "directions.transitSub",
+    "v": "Subway and bus are the most convenient way to get here."
+  },
+  {
+    "path": "directions.chungmuroTitle",
+    "v": "Chungmuro Station (Lines 3 & 4)"
+  },
+  {
+    "path": "directions.chungmuroDesc",
+    "v": "Exit 2 → Bus 01A·01B → N Seoul Tower stop → Palgakjeong Pavilion"
+  },
+  {
+    "path": "directions.donggukTitle",
+    "v": "Dongguk Univ. Station (Line 3)"
+  },
+  {
+    "path": "directions.donggukDesc",
+    "v": "Exit 6 → Bus 01A·01B → N Seoul Tower stop → Palgakjeong Pavilion"
+  },
+  {
+    "path": "directions.myeongdongTitle",
+    "v": "Myeong-dong Station (Line 4)"
+  },
+  {
+    "path": "directions.myeongdongDesc",
+    "v": "Exit 3 → Namsan Cable Car → Upper station → Palgakjeong Pavilion"
+  },
+  {
+    "path": "directions.carTitle",
+    "v": "By car"
+  },
+  {
+    "path": "directions.carDesc",
+    "v": "Private vehicles are restricted on Namsan summit roads."
+  },
+  {
+    "path": "directions.carNote",
+    "v": "Please use public transportation when possible."
+  },
+  {
+    "path": "directions.naverMap",
+    "v": "Open in Naver Map"
+  },
+  {
+    "path": "venuePage.titleAlt",
+    "v": "Venue"
+  },
+  {
+    "path": "venuePage.mapHeading",
+    "v": "Festival site map"
+  },
+  {
+    "path": "venuePage.mapAlt",
+    "v": "Festival site map at Namsan — K-Play Zone, Spangle Photo Zone, Coloring Wall, main stage, and experience booths"
+  },
+  {
+    "path": "venuePage.exhibitionHead",
+    "v": "Exhibition Program"
+  },
+  {
+    "path": "venuePage.benton",
+    "v": "BENTON"
+  },
+  {
+    "path": "venuePage.hikeLogoAlt",
+    "v": "HIKE SEOUL"
+  },
+  {
+    "path": "venuePage.coloringWall",
+    "v": "Coloring Wall"
+  },
+  {
+    "path": "venuePage.spanglePhoto",
+    "v": "Spangle Photo Zone"
+  },
+  {
+    "path": "venuePage.soulDesc",
+    "v": "Try the Soul Spot AR drone show and AI-recommended courses!"
+  },
+  {
+    "path": "venuePage.soulNote",
+    "v": "Get a photo card after your experience; join SNS verification for a commemorative postcard."
+  },
+  {
+    "path": "venuePage.exp1",
+    "v": "Korean Name Studio & Digital Caricature"
+  },
+  {
+    "path": "venuePage.exp2",
+    "v": "Hahoe Mask Keyring Making"
+  },
+  {
+    "path": "venuePage.exp6",
+    "v": "Calligraphy Postcard Making"
+  },
+  {
+    "path": "venuePage.exp7",
+    "v": "Face Painting"
+  },
+  {
+    "path": "venuePage.exp8",
+    "v": "Catch the “8” Pavilion"
+  },
+  {
+    "path": "venuePage.tuho",
+    "v": "Tuho"
+  },
+  {
+    "path": "programParticipate.titleAlt",
+    "v": "Participation Programs"
+  },
+  {
+    "path": "programParticipate.tabListLabel",
+    "v": "Participation programs"
+  },
+  {
+    "path": "programParticipate.tabKpop",
+    "v": "K-POP Class Challenge"
+  },
+  {
+    "path": "programParticipate.tabRhythm",
+    "v": "Namsan Rhythm Challenge"
+  },
+  {
+    "path": "programParticipate.metaDate",
+    "v": "Date & time"
+  },
+  {
+    "path": "programParticipate.metaPlace",
+    "v": "Venue"
+  },
+  {
+    "path": "programParticipate.imagePlaceholder",
+    "v": "Image"
+  },
+  {
+    "path": "programParticipate.kpopPhotoAlt",
+    "v": "K-POP Class Challenge at the festival"
+  },
+  {
+    "path": "programParticipate.rhythmPhotoAlt",
+    "v": "Namsan Rhythm Challenge mask dance experience"
+  },
+  {
+    "path": "programParticipate.kpopTitle",
+    "v": "K-POP Class Challenge"
+  },
+  {
+    "path": "programParticipate.kpopLead",
+    "v": "A one-day K-POP dance class at Namsan!"
+  },
+  {
+    "path": "programParticipate.kpopDesc",
+    "v": "Watch a performance by ONE MILLION AMAZON, then learn K-POP choreography yourself.\nA special session to learn and perform ATEEZ’s “BAD” together!\nFirst-timers welcome—everyone can join in and follow along.\nWatch, learn, dance together, and feel the energy of K-POP!"
+  },
+  {
+    "path": "programParticipate.kpopDate",
+    "v": "Sat, Oct 3, 2026 · 17:30–18:00"
+  },
+  {
+    "path": "programParticipate.kpopPlace",
+    "v": "Main stage, Namsan Palgakjeong Pavilion"
+  },
+  {
+    "path": "programParticipate.rhythmTitle",
+    "v": "Namsan Rhythm Challenge"
+  },
+  {
+    "path": "programParticipate.rhythmLead",
+    "v": "A lively mask dance session at Namsan!"
+  },
+  {
+    "path": "programParticipate.rhythmDesc",
+    "v": "With Yeonhuijeomchuri, put on a mask and learn talchum to our rhythm.\nEasy, exciting beats and moves anyone can follow—even beginners.\nNot just watching—dance along and enjoy this interactive moment together.\nFeel the joy and spirit of Korean tradition at Namsan!"
+  },
+  {
+    "path": "programParticipate.rhythmDate",
+    "v": "Fri, Oct 2, 2026 · 17:00–17:30"
+  },
+  {
+    "path": "programParticipate.rhythmPlace",
+    "v": "Main stage, Namsan Palgakjeong Pavilion"
+  },
+  {
+    "path": "exhibitionPage.titleAlt",
+    "v": "Exhibition Program"
+  },
+  {
+    "path": "experiencePage.titleAlt",
+    "v": "Experience Zone"
+  },
+  {
+    "path": "experiencePage.namingTitle",
+    "v": "Korean Name Studio × Digital Caricature"
+  },
+  {
+    "path": "experiencePage.namingDesc",
+    "v": "Get your own Korean name and caricature on one card!\nA special program where we create a digital caricature of you and a personalized Korean name, finished as a single keepsake card."
+  },
+  {
+    "path": "experiencePage.namingPhotoAlt",
+    "v": "Korean name studio and digital caricature booth"
+  },
+  {
+    "path": "experiencePage.hahoeTitle",
+    "v": "Hahoe Mask Keyring Making"
+  },
+  {
+    "path": "experiencePage.hahoeDesc",
+    "v": "Decorate a traditional Hahoe mask and make your own keyring!\nA traditional culture program where you decorate a Hahoe mask keyring with colorful accents and take home your finished piece as a souvenir."
+  },
+  {
+    "path": "experiencePage.hahoePhotoAlt",
+    "v": "Hahoe mask keyring making booth"
+  },
+  {
+    "path": "experiencePage.catchEightTitle",
+    "v": "Catch the “8” Pavilion"
+  },
+  {
+    "path": "experiencePage.catchEightDesc",
+    "v": "Stop the timer at 8 seconds—a thrilling timing challenge at Namsan!\nPress the button to start the timer and stop as close to 8 seconds as you can. A simple game anyone can enjoy."
+  },
+  {
+    "path": "experiencePage.catchEightPhotoAlt",
+    "v": "Catch the 8 pavilion timing game booth"
+  },
+  {
+    "path": "experiencePage.calligraphyTitle",
+    "v": "Calligraphy Postcard Making"
+  },
+  {
+    "path": "experiencePage.calligraphyDesc",
+    "v": "A professional calligrapher writes your chosen phrase in Hangeul on the spot so you can take home the beauty of Korean script as a souvenir."
+  },
+  {
+    "path": "experiencePage.calligraphyPhotoAlt",
+    "v": "Calligraphy postcard making experience"
+  },
+  {
+    "path": "experiencePage.facePaintingTitle",
+    "v": "Face Painting"
+  },
+  {
+    "path": "experiencePage.facePaintingDesc",
+    "v": "Enjoy face painting in a variety of designs and add extra fun to the festival atmosphere."
+  },
+  {
+    "path": "experiencePage.facePaintingPhotoAlt",
+    "v": "Face painting booth"
+  },
+  {
+    "path": "kPlayPage.titleAlt",
+    "v": "K-Play Zone"
+  },
+  {
+    "path": "kPlayPage.sectionLead",
+    "v": "K-Play Zone (Open all day)"
+  },
+  {
+    "path": "kPlayPage.yutTitle",
+    "v": "Yutnori"
+  },
+  {
+    "path": "kPlayPage.yutPhotoAlt",
+    "v": "Yutnori at the K-Play Zone"
+  },
+  {
+    "path": "kPlayPage.gonggiTitle",
+    "v": "Gonggi-nori"
+  },
+  {
+    "path": "kPlayPage.gonggiPhotoAlt",
+    "v": "Gonggi-nori at the K-Play Zone"
+  },
+  {
+    "path": "kPlayPage.jegiTitle",
+    "v": "Jegichagi"
+  },
+  {
+    "path": "kPlayPage.jegiPhotoAlt",
+    "v": "Jegichagi at the K-Play Zone"
+  },
+  {
+    "path": "kPlayPage.tuhoTitle",
+    "v": "Tuho"
+  },
+  {
+    "path": "kPlayPage.tuhoPhotoAlt",
+    "v": "Tuho at the K-Play Zone"
+  },
+  {
+    "path": "soulSpotPage.titleAlt",
+    "v": "Soul Spot"
+  },
+  {
+    "path": "soulSpotPage.lead",
+    "v": "A special AR Seoul journey at Namsan — Soul Spot!"
+  },
+  {
+    "path": "soulSpotPage.p1",
+    "v": "Enjoy an AR drone show and games on your phone, plus an AI-recommended course tailored to your tastes."
+  },
+  {
+    "path": "soulSpotPage.p2",
+    "v": "Try various content, collect a photo card, and join SNS verification and a survey to receive souvenirs."
+  },
+  {
+    "path": "soulSpotPage.p3",
+    "v": "Start your trip to discover Seoul’s new charms at Namsan!"
+  },
+  {
+    "path": "soulSpotPage.photoAlt",
+    "v": "Namsan AR booth and visitors using smartphones at the AR photo zone with N Seoul Tower"
+  },
+  {
+    "path": "stampTourPage.titleAlt",
+    "v": "Stamp Tour"
+  },
+  {
+    "path": "stampTourPage.lead",
+    "v": "Stamp Tour Completion Event"
+  },
+  {
+    "path": "stampTourPage.desc",
+    "v": "Enjoy experiences across Namsan, collect stamps, and take home a souvenir!\nPick up an event leaflet, visit experience booths and the Special Experience Zone to join programs and earn stamps. Complete the stamp tour to receive a special festival gift."
+  },
+  {
+    "path": "stampTourPage.photoAlt",
+    "v": "2026 Seoul Tourism ON Festa stamp tour leaflet guide"
+  },
+  {
+    "path": "stampTourPage.stampsIntro",
+    "v": "Collect stamps at five experience booths!"
+  },
+  {
+    "path": "stampTourPage.stamp1",
+    "v": "Exhibition Program"
+  },
+  {
+    "path": "stampTourPage.stamp2",
+    "v": "K-Play Zone"
+  },
+  {
+    "path": "stampTourPage.stamp3",
+    "v": "Experience Zone"
+  },
+  {
+    "path": "stampTourPage.stamp4",
+    "v": "Special Experience Zone"
+  },
+  {
+    "path": "stampTourPage.stamp5",
+    "v": "Soul Spot"
+  },
+  {
+    "path": "stampTourPage.infoHoursLabel",
+    "v": "Experience booth hours"
+  },
+  {
+    "path": "stampTourPage.infoHoursBody",
+    "v": "Experience booths operate from 13:00 to 18:00."
+  },
+  {
+    "path": "stampTourPage.infoParticipateLabel",
+    "v": "Program participation"
+  },
+  {
+    "path": "stampTourPage.infoParticipateBody",
+    "v": "All performances and experience programs are free to join."
+  },
+  {
+    "path": "stampTourPage.infoProgramLabel",
+    "v": "Experience programs"
+  },
+  {
+    "path": "stampTourPage.infoProgramBody",
+    "v": "Some experience programs may end early when materials run out."
+  },
+  {
+    "path": "stampTourPage.infoOperationLabel",
+    "v": "Operations"
+  },
+  {
+    "path": "stampTourPage.infoOperationBody",
+    "v": "Event programs and operating hours may change depending on conditions on site."
+  },
+  {
+    "path": "sponsorZonePage.titleAlt",
+    "v": "Special Experience Zone"
+  },
+  {
+    "path": "sponsorZonePage.bentonBrand",
+    "v": "BENTON"
+  },
+  {
+    "path": "sponsorZonePage.bentonLead",
+    "v": "K-beauty experience at Namsan"
+  },
+  {
+    "path": "sponsorZonePage.bentonDesc",
+    "v": "Try Benton K-beauty products in person and join the event to take home gifts in this K-beauty experience program."
+  },
+  {
+    "path": "sponsorZonePage.bentonPhotoAlt",
+    "v": "BENTON special experience zone booth at the festival"
+  },
+  {
+    "path": "sponsorZonePage.hikeBrand",
+    "v": "HIKE SEOUL"
+  },
+  {
+    "path": "sponsorZonePage.hikeLead",
+    "v": "SEOUL HIKING experience at Namsan"
+  },
+  {
+    "path": "sponsorZonePage.hikeDesc",
+    "v": "Wear hiking gear from the Seoul Urban Hiking Tourism Center, take life-four-cut photos with a Namsan hiking theme, and experience Seoul K-HIKING in this photo experience program."
+  },
+  {
+    "path": "sponsorZonePage.hikePhotoAlt",
+    "v": "HIKE SEOUL special experience zone booth at the festival"
+  },
+  {
+    "path": "sponsorPage.titleAlt",
+    "v": "Partners"
+  },
+  {
+    "path": "sponsorPage.bentonLogo",
+    "v": "BENTON"
+  },
+  {
+    "path": "sponsorPage.bentonLead",
+    "v": "Meet BENTON, a K-beauty brand for healthy skin, at Namsan!"
+  },
+  {
+    "path": "sponsorPage.bentonDesc",
+    "v": "Inspired by the film The Curious Case of Benjamin Button, Benton is a skincare brand that aims to turn back time for your skin and restore its natural health.\nFrom planning onward, we exclude controversial harmful ingredients and insist on outstanding natural ingredients such as aloe and snail mucin, offering gentle products even sensitive skin can trust.\nWe are certified Cruelty-Free against animal testing and actively use eco-friendly packaging—practicing kind clean beauty that cares for both skin and the planet."
+  },
+  {
+    "path": "sponsorPage.bentonEventTitle",
+    "v": "BENTON × ON Festa SNS EVENT"
+  },
+  {
+    "path": "sponsorPage.bentonEventDesc",
+    "v": "Try the product on site and follow BENTON’s official Instagram!\nPost a photo of yourself using the product, tag @bentoncosmetic, and add #GlowOnNamsan to enter.\nThe first 20 participants will receive a full-size BENTON product."
+  },
+  {
+    "path": "sponsorPage.bentonClosing",
+    "v": "K-BEAUTY EXPERIENCE at Namsan!\nSee, try, and share—complete your special Seoul moment with BENTON."
+  },
+  {
+    "path": "sponsorPage.hikeLogoMain",
+    "v": "HIKE SEOUL"
+  },
+  {
+    "path": "sponsorPage.hikeLogoSub",
+    "v": "Seoul Urban Hiking"
+  },
+  {
+    "path": "sponsorPage.hikeLogoAlt",
+    "v": "HIKE SEOUL"
+  },
+  {
+    "path": "sponsorPage.hikeLead",
+    "v": "A new way to explore Seoul’s mountains—SEOUL HIKING"
+  },
+  {
+    "path": "sponsorPage.hikeDesc",
+    "v": "The Seoul Urban Hiking Tourism Center connects Seoul’s beautiful mountains with the city, helping visitors enjoy hiking culture with ease.\nFrom hiking information and gear rental to experience programs, it presents Seoul’s trails as unique urban tourism content."
+  },
+  {
+    "path": "sponsorPage.hikeSubLead",
+    "v": "Special K-HIKING at Namsan"
+  },
+  {
+    "path": "sponsorPage.hikeEventDesc",
+    "v": "At the 2026 Seoul Tourism ON Festa, enjoy a special K-HIKING experience with the Seoul Urban Hiking Tourism Center.\nTry jackets, hats, backpacks, trekking poles, and more to create your K-HIKING LOOK, then capture the moment at Namsan’s summit. Apply the HIKE SEOUL photo frame to keep your Seoul hiking memory."
+  },
+  {
+    "path": "sponsorPage.hikeClosing",
+    "v": "A new Seoul journey where city and nature meet—\nexperience SEOUL HIKING at Namsan!"
+  },
+  {
+    "path": "performancePage.heading",
+    "v": "Main stage performances"
+  },
+  {
+    "path": "performancePage.day1Label",
+    "v": "Oct 2 (Fri)"
+  },
+  {
+    "path": "performancePage.day2Label",
+    "v": "Oct 3 (Sat)"
+  },
+  {
+    "path": "performancePage.gaonsoriTime",
+    "v": "18:00–18:30"
+  },
+  {
+    "path": "performancePage.gaonsoriName",
+    "v": "Gugak & Classical Ensemble Gaonsori"
+  },
+  {
+    "path": "performancePage.gaonsoriAlt",
+    "v": "Gugak & Classical Ensemble Gaonsori"
+  },
+  {
+    "path": "performancePage.minkyungTime",
+    "v": "18:30–19:00"
+  },
+  {
+    "path": "performancePage.minkyungName",
+    "v": "Min Kyung-hoon"
+  },
+  {
+    "path": "performancePage.minkyungAlt",
+    "v": "Singer Min Kyung-hoon"
+  },
+  {
+    "path": "performancePage.amazonTime",
+    "v": "17:00–18:00"
+  },
+  {
+    "path": "performancePage.amazonName",
+    "v": "1MILLION [Amazon]"
+  },
+  {
+    "path": "performancePage.amazonAlt",
+    "v": "1MILLION [Amazon]"
+  },
+  {
+    "path": "performancePage.dickpunksTime",
+    "v": "19:00–19:30"
+  },
+  {
+    "path": "performancePage.dickpunksName",
+    "v": "DickPunks"
+  },
+  {
+    "path": "performancePage.dickpunksAlt",
+    "v": "Band DickPunks"
+  },
+  {
+    "path": "performancePage.hwaryeoTime",
+    "v": "14:00–14:30"
+  },
+  {
+    "path": "performancePage.hwaryeoName",
+    "v": "Percussion — Hwaryeo"
+  },
+  {
+    "path": "performancePage.hwaryeoAlt",
+    "v": "Percussion performance Hwaryeo"
+  },
+  {
+    "path": "performancePage.namsanBeaconTime",
+    "v": "15:00–15:30"
+  },
+  {
+    "path": "performancePage.namsanBeaconName",
+    "v": "Namsan beacon-fire traditional performance"
+  },
+  {
+    "path": "performancePage.namsanBeaconAlt",
+    "v": "Namsan beacon-fire traditional performance"
+  },
+  {
+    "path": "performancePage.baeksujiwangTime",
+    "v": "16:00–17:00"
+  },
+  {
+    "path": "performancePage.baeksujiwangName",
+    "v": "Lion Special Forces Baeksujiwang · Yeonhee Jeomchuri"
+  },
+  {
+    "path": "performancePage.baeksujiwangAlt",
+    "v": "Baeksujiwang · Yeonhee Jeomchuri"
+  },
+  {
+    "path": "performancePage.dachaeTime",
+    "v": "14:00–14:30"
+  },
+  {
+    "path": "performancePage.dachaeName",
+    "v": "Joseon Magic Troupe · Dachae"
+  },
+  {
+    "path": "performancePage.dachaeAlt",
+    "v": "Magic Troupe Dachae"
+  },
+  {
+    "path": "performancePage.esplavaTime",
+    "v": "18:30–19:00"
+  },
+  {
+    "path": "performancePage.esplavaName",
+    "v": "Gugak B-boy · S-Flava"
+  },
+  {
+    "path": "performancePage.esplavaAlt",
+    "v": "S-Flava performance"
+  },
+  {
+    "path": "faq.q1",
+    "v": "Is there an admission fee?"
+  },
+  {
+    "path": "faq.a1",
+    "v": "There is no admission fee—you can join for free.\nPerformances and on-site experience programs are also free."
+  },
+  {
+    "path": "faq.q2",
+    "v": "Is parking available?"
+  },
+  {
+    "path": "faq.a2",
+    "v": "General vehicles cannot enter or park at the Namsan summit venue.\nWe recommend public transit or the Namsan Cable Car."
+  },
+  {
+    "path": "faq.q3",
+    "v": "Will the event run in rain?"
+  },
+  {
+    "path": "faq.a3",
+    "v": "Light rain: the festival is expected to proceed as scheduled.\nStrong wind, heavy rain, or similar conditions may change or cancel some programs; updates will be posted on the website."
+  },
+  {
+    "path": "privacyPage.pageTitle",
+    "v": "Privacy Policy"
+  },
+  {
+    "path": "privacyPage.lead",
+    "v": "2026 Seoul Tourism ON Festa (the “Event”) complies with applicable privacy laws and publishes this Privacy Policy to protect participants’ personal information."
+  },
+  {
+    "path": "privacyPage.s1Title",
+    "v": "1. Purpose of processing"
+  },
+  {
+    "path": "privacyPage.s1Body",
+    "v": "We process personal information for the purposes below. Information is not used beyond these purposes; if purposes change, we obtain consent as required by law."
+  },
+  {
+    "path": "privacyPage.s1Item1",
+    "v": "Event registration and identity verification"
+  },
+  {
+    "path": "privacyPage.s1Item2",
+    "v": "Stamp tours, prizes, souvenirs, and other event operations"
+  },
+  {
+    "path": "privacyPage.s1Item3",
+    "v": "Event notices, inquiries, and communications"
+  },
+  {
+    "path": "privacyPage.s1Item4",
+    "v": "Operations, safety, and statistical analysis"
+  },
+  {
+    "path": "privacyPage.s2Title",
+    "v": "2. Items collected"
+  },
+  {
+    "path": "privacyPage.s2Body",
+    "v": "We collect the minimum information needed; items may vary by program or event."
+  },
+  {
+    "path": "privacyPage.s2Item1",
+    "v": "Required: name, contact number"
+  },
+  {
+    "path": "privacyPage.s2Item2",
+    "v": "Optional: email, nationality, program participation details"
+  },
+  {
+    "path": "privacyPage.s2Item3",
+    "v": "Automatic: access logs, cookies, IP address (when using the website)"
+  },
+  {
+    "path": "privacyPage.s3Title",
+    "v": "3. Retention period"
+  },
+  {
+    "path": "privacyPage.s3Body",
+    "v": "We destroy personal information without delay when the purpose is fulfilled, except where retention is required by law."
+  },
+  {
+    "path": "privacyPage.s4Title",
+    "v": "4. Provision to third parties"
+  },
+  {
+    "path": "privacyPage.s4Body",
+    "v": "We do not provide personal information to third parties except with prior consent or as required by law."
+  },
+  {
+    "path": "privacyPage.s5Title",
+    "v": "5. Processing consignment"
+  },
+  {
+    "path": "privacyPage.s5Body",
+    "v": "If we entrust processing to a third party, we disclose the delegate and tasks and protect data under applicable law and contracts."
+  },
+  {
+    "path": "privacyPage.s6Title",
+    "v": "6. Your rights"
+  },
+  {
+    "path": "privacyPage.s6Body",
+    "v": "You may request access, correction, deletion, or suspension of processing. Contact the officer below; we will respond promptly."
+  },
+  {
+    "path": "privacyPage.s7Title",
+    "v": "7. Privacy officer"
+  },
+  {
+    "path": "privacyPage.s7Body",
+    "v": "For complaints and remedies regarding personal information, contact:"
+  },
+  {
+    "path": "privacyPage.s7Item1",
+    "v": "Office: 2026 Seoul Tourism ON Festa Operations"
+  },
+  {
+    "path": "privacyPage.s7Item2",
+    "v": "Phone: +82-2-2600-6455"
+  },
+  {
+    "path": "privacyPage.s8Title",
+    "v": "8. Changes to this policy"
+  },
+  {
+    "path": "privacyPage.s8Body",
+    "v": "We may update this policy and will post changes on the website."
+  },
+  {
+    "path": "privacyPage.effective",
+    "v": "Effective: January 1, 2026"
+  },
+  {
+    "path": "noticePage.listCaption",
+    "v": "Event notices"
+  },
+  {
+    "path": "noticePage.tableCaption",
+    "v": "Notice list"
+  },
+  {
+    "path": "noticePage.colNum",
+    "v": "No."
+  },
+  {
+    "path": "noticePage.colTitle",
+    "v": "Title"
+  },
+  {
+    "path": "noticePage.colDate",
+    "v": "Date"
+  },
+  {
+    "path": "noticePage.pinLabel",
+    "v": "Notice"
+  },
+  {
+    "path": "noticePage.empty",
+    "v": "No notices yet."
+  },
+  {
+    "path": "noticePage.loadError",
+    "v": "Could not load notices. Please try again later."
+  },
+  {
+    "path": "noticePage.notFound",
+    "v": "Notice not found."
+  },
+  {
+    "path": "noticePage.backToList",
+    "v": "Back to list"
+  },
+  {
+    "path": "noticePage.prev",
+    "v": "Previous"
+  },
+  {
+    "path": "noticePage.next",
+    "v": "Next"
+  },
+  {
+    "path": "emailDenyPage.pageTitle",
+    "v": "No Unauthorized Email Collection"
+  },
+  {
+    "path": "emailDenyPage.p1",
+    "v": "We refuse unauthorized collection of email addresses posted on this website using automated programs or other devices. Violations may be subject to criminal penalties under applicable Korean law."
+  },
+  {
+    "path": "emailDenyPage.p2",
+    "v": "Under the Act on Promotion of Information and Communications Network Utilization and Information Protection, etc., email addresses must not be collected, extracted, registered, used, sold, or shared without the website operator’s prior consent."
+  },
+  {
+    "path": "emailDenyPage.p3",
+    "v": "All email addresses on the official 2026 Seoul Tourism ON Festa website reject unauthorized collection; sending messages to unlawfully collected addresses may result in penalties."
+  },
+  {
+    "path": "emailDenyPage.notice",
+    "v": "Posted: January 1, 2026"
+  }
+]
