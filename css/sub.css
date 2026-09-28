@@ -591,13 +591,15 @@ body.is-sub .sub-hero__header .site-header {
   --tt-head-text: #ffffff;
   --tt-gap: clamp(6px, 1vw, 10px);
   --tt-slot-h: clamp(72px, 9vw, 88px);
+  --tt-body-size: clamp(14px, 1.3vw, 16px);
+  --tt-body-weight: 700;
   width: 100%;
   min-width: 680px;
   border-collapse: separate;
   border-spacing: var(--tt-gap);
   table-layout: fixed;
-  font-size: clamp(12px, 1.3vw, 14px);
-  font-weight: 600;
+  font-size: var(--tt-body-size);
+  font-weight: var(--tt-body-weight);
   text-align: center;
   line-height: 1.45;
   color: var(--blue-dark);
@@ -613,7 +615,7 @@ body.is-sub .sub-hero__header .site-header {
 .timetable-table thead th {
   padding: clamp(10px, 1.4vw, 14px) clamp(8px, 1.2vw, 12px);
   border-radius: 12px;
-  font-size: clamp(13px, 1.4vw, 15px);
+  font-size: clamp(15px, 1.4vw, 17px);
   font-weight: 800;
   letter-spacing: -0.02em;
 }
@@ -647,8 +649,8 @@ body.is-sub .sub-hero__header .site-header {
   border-radius: 10px;
   background: var(--tt-time-slot);
   color: var(--blue-dark);
-  font-weight: 700;
-  font-size: clamp(11px, 1.2vw, 13px);
+  font-weight: var(--tt-body-weight);
+  font-size: var(--tt-body-size);
   letter-spacing: -0.02em;
   white-space: nowrap;
   box-shadow: 0 2px 6px rgba(0, 73, 126, 0.08);
@@ -662,6 +664,9 @@ body.is-sub .sub-hero__header .site-header {
   background: var(--tt-cell);
   border: 1px solid var(--border);
   box-shadow: 0 2px 8px rgba(0, 73, 126, 0.05);
+  font-size: var(--tt-body-size);
+  font-weight: var(--tt-body-weight);
+  color: var(--blue-dark);
 }
 
 .timetable-table tbody td[rowspan='2'] {
@@ -671,8 +676,6 @@ body.is-sub .sub-hero__header .site-header {
 
 .timetable-table__cell--muted {
   color: #5a8db5;
-  font-weight: 600;
-  font-size: 0.95em;
 }
 
 .timetable-table__cell--empty {
@@ -681,8 +684,8 @@ body.is-sub .sub-hero__header .site-header {
 
 .timetable-cell__main {
   display: block;
-  font-weight: 800;
-  color: var(--blue-dark);
+  font: inherit;
+  color: inherit;
   letter-spacing: -0.02em;
   line-height: 1.35;
 }
@@ -697,14 +700,8 @@ body.is-sub .sub-hero__header .site-header {
   line-height: 1.35;
 }
 
-.timetable-table td:not(:has(.timetable-cell__main)) {
-  font-weight: 700;
-  color: var(--blue-dark);
-}
-
 .timetable-table td.timetable-table__cell--muted:not(:has(.timetable-cell__main)) {
   color: var(--text-muted);
-  font-weight: 500;
 }
 
 @media (max-width: 720px) {
@@ -1164,6 +1161,10 @@ body.is-sub .sub-hero__header .site-header {
 .program-zone-item__desc {
   margin: 0;
   text-align: left;
+}
+
+.program-zone-item__desc + .program-zone-item__desc {
+  margin-top: clamp(10px, 1.5vw, 14px);
 }
 
 /* ===== 스탬프 투어 ===== */
@@ -2032,6 +2033,17 @@ body.is-sub .sub-hero__header .site-header {
   min-height: 0;
 }
 
+/* 같은 날짜 — 하단 추가 공연 (3열) */
+.performance-day__list--more {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: clamp(8px, 1.5vw, 12px);
+}
+
+.performance-day__list--more .performance-card__media {
+  height: auto;
+  aspect-ratio: 16 / 10;
+}
+
 .performance-card {
   min-width: 0;
 }
@@ -2114,9 +2126,14 @@ body.is-sub .sub-hero__header .site-header {
   }
 
   .performance-day__list--wide-first,
-  .performance-day__list--square-first {
+  .performance-day__list--square-first,
+  .performance-day__list--more {
     grid-template-columns: 1fr;
     max-width: 100%;
+  }
+
+  .performance-day__list--more .performance-card__media--landscape {
+    aspect-ratio: 16 / 9;
   }
 
   .performance-day__list--square-first .performance-card,
