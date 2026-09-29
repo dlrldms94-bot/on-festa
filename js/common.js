@@ -234,6 +234,19 @@
         el.setAttribute('alt', text);
       }
     });
+    document.querySelectorAll('[data-i18n-src]').forEach((el) => {
+      if (el.closest('[data-i18n-skip]')) return;
+      const base = el.getAttribute('data-i18n-src');
+      if (!base) return;
+      const langCode = I18N.SUPPORTED_LANGS.includes(lang) ? lang : I18N.DEFAULT_LANG;
+      const setSrc = (code) => el.setAttribute('src', `${base}-${code}.png`);
+      setSrc(langCode);
+      el.onerror = () => {
+        el.onerror = null;
+        if (langCode !== 'en') setSrc('en');
+        else if (langCode !== 'ko') setSrc('ko');
+      };
+    });
     const skip = document.querySelector('.skip-link');
     if (skip) skip.textContent = t('skipMain');
   }

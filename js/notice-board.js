@@ -1,9 +1,13 @@
 (function () {
   const API_BASE = window.ONFESTA_API_BASE || '';
 
+  function getLang() {
+    return window.ONFESTA_I18N?.getLang() || 'ko';
+  }
+
   function t(key) {
     if (window.ONFESTA_I18N) {
-      return window.ONFESTA_I18N.t(key, window.ONFESTA_I18N.getLang());
+      return window.ONFESTA_I18N.t(key, getLang());
     }
     return key;
   }
@@ -11,9 +15,15 @@
   function formatDate(iso) {
     const d = new Date(iso);
     if (Number.isNaN(d.getTime())) return '';
-    const lang = window.ONFESTA_I18N?.getLang() || 'ko';
+    const lang = getLang();
     if (lang === 'en') {
       return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    }
+    if (lang === 'ja') {
+      return d.toLocaleDateString('ja-JP', { year: 'numeric', month: 'short', day: 'numeric' });
+    }
+    if (lang === 'zh') {
+      return d.toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' });
     }
     const y = d.getFullYear();
     const m = String(d.getMonth() + 1).padStart(2, '0');
@@ -64,7 +74,8 @@
       errorEl.hidden = true;
       tbody.innerHTML = '';
       try {
-        const data = await fetchJson(`/api/notices?page=${page}&limit=10`);
+        const lang = encodeURIComponent(getLang());
+        const data = await fetchJson(`/api/notices?page=${page}&limit=10&lang=${lang}`);
         if (!data.items.length) {
           emptyEl.hidden = false;
           pagination.innerHTML = '';
@@ -144,19 +155,26 @@
       return;
     }
 
-    fetchJson(`/api/notices/${id}`)
-      .then((item) => {
+    async function loadDetail() {
+      errorEl.hidden = true;
+      try {
+        const lang = encodeURIComponent(getLang());
+        const item = await fetchJson(`/api/notices/${id}?lang=${lang}`);
         titleEl.textContent = item.title;
         dateEl.textContent = formatDate(item.created_at);
-        bodyEl.innerHTML = renderBody(item.body);
+        if (item.created_at) dateEl.setAttribute('datetime', item.created_at);
+        bodyEl.innerHTML = renderBody(item.body || '');
         document.title = `${item.title} | ${document.title.split('|').pop()?.trim() || ''}`;
-      })
-      .catch(() => {
+      } catch {
         errorEl.hidden = false;
         errorEl.textContent = t('noticePage.notFound');
         titleEl.textContent = '';
         bodyEl.innerHTML = '';
-      });
+      }
+    }
+
+    loadDetail();
+    window.addEventListener('onfesta:lang', loadDetail);
   }
 
   document.addEventListener('DOMContentLoaded', () => {

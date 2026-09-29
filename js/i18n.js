@@ -227,7 +227,7 @@
         hikeBrand: 'HIKE SEOUL',
         hikeLead: '남산에서 즐기는 SEOUL HIKING 체험',
         hikeDesc:
-          '서울 도심등산관광센터의 등산용품을 직접 착용하고, 남산 등산 콘셉트의 인생네컷을 촬영하며 서울의 K-HIKING을 경험하는 포토 체험 프로그램',
+          '서울등산관광센터의 등산용품을 직접 착용하고, 남산 등산 콘셉트의 인생네컷을 촬영하며 서울의 K-HIKING을 경험하는 포토 체험 프로그램',
         hikePhotoAlt: 'HIKE SEOUL 스페셜 체험존 부스 현장',
       },
       sponsorPage: {
@@ -246,10 +246,10 @@
         hikeLogoAlt: 'HIKE SEOUL 하이크서울',
         hikeLead: '서울의 산을 여행하는 새로운 방법, SEOUL HIKING',
         hikeDesc:
-          '서울 도심등산관광센터는 서울의 아름다운 산과 도심을 연결해 국내외 관광객들이 서울의 등산문화를 보다 쉽고 편리하게 경험할 수 있도록 돕는 등산관광 거점입니다.\n등산관광 정보 안내부터 등산용품 대여, 다양한 체험 프로그램까지 제공하며, 서울의 산을 단순한 등산 코스를 넘어 서울만의 매력을 경험할 수 있는 관광 콘텐츠로 소개하고 있습니다.',
+          '서울등산관광센터는 서울의 아름다운 산과 도심을 연결해 국내외 관광객들이 서울의 등산문화를 보다 쉽고 편리하게 경험할 수 있도록 돕는 등산관광 거점입니다.\n등산관광 정보 안내부터 등산용품 대여, 다양한 체험 프로그램까지 제공하며, 서울의 산을 단순한 등산 코스를 넘어 서울만의 매력을 경험할 수 있는 관광 콘텐츠로 소개하고 있습니다.',
         hikeSubLead: '남산에서 만나는 특별한 K-HIKING',
         hikeEventDesc:
-          '이번 2026 서울관광 ON Festa에서는 서울 도심등산관광센터와 함께 특별한 K-HIKING 체험을 만나볼 수 있습니다.\n등산자켓·모자·배낭·등산스틱 등 다양한 등산용품을 직접 착용해 나만의 K-HIKING LOOK을 완성하고, 남산 정상에 오른 순간을 콘셉트로 특별한 사진을 남겨보세요. 촬영한 사진에는 HIKE SEOUL 전용 프레임을 적용해 서울에서 경험한 특별한 등산의 순간을 추억으로 간직할 수 있습니다.',
+          '이번 2026 서울관광 ON Festa에서는 서울등산관광센터와 함께 특별한 K-HIKING 체험을 만나볼 수 있습니다.\n등산자켓·모자·배낭·등산스틱 등 다양한 등산용품을 직접 착용해 나만의 K-HIKING LOOK을 완성하고, 남산 정상에 오른 순간을 콘셉트로 특별한 사진을 남겨보세요. 촬영한 사진에는 HIKE SEOUL 전용 프레임을 적용해 서울에서 경험한 특별한 등산의 순간을 추억으로 간직할 수 있습니다.',
         hikeClosing:
           '도심과 자연을 함께 즐기는 서울만의 새로운 여행,\n남산에서 SEOUL HIKING의 매력을 직접 경험해 보세요!',
       },
@@ -578,7 +578,7 @@
         hikeBrand: 'HIKE SEOUL',
         hikeLead: 'SEOUL HIKING experience at Namsan',
         hikeDesc:
-          'Wear hiking gear from the Seoul Urban Hiking Tourism Center, take life-four-cut photos with a Namsan hiking theme, and experience Seoul K-HIKING in this photo experience program.',
+          'Wear hiking gear from the Seoul Hiking Tourism Center, take life-four-cut photos with a Namsan hiking theme, and experience Seoul K-HIKING in this photo experience program.',
         hikePhotoAlt: 'HIKE SEOUL special experience zone booth at the festival',
       },
       sponsorPage: {
@@ -597,10 +597,10 @@
         hikeLogoAlt: 'HIKE SEOUL',
         hikeLead: 'A new way to explore Seoul’s mountains—SEOUL HIKING',
         hikeDesc:
-          'The Seoul Urban Hiking Tourism Center connects Seoul’s beautiful mountains with the city, helping visitors enjoy hiking culture with ease.\nFrom hiking information and gear rental to experience programs, it presents Seoul’s trails as unique urban tourism content.',
+          'The Seoul Hiking Tourism Center connects Seoul’s beautiful mountains with the city, helping visitors enjoy hiking culture with ease.\nFrom hiking information and gear rental to experience programs, it presents Seoul’s trails as unique urban tourism content.',
         hikeSubLead: 'Special K-HIKING at Namsan',
         hikeEventDesc:
-          'At the 2026 Seoul Tourism ON Festa, enjoy a special K-HIKING experience with the Seoul Urban Hiking Tourism Center.\nTry jackets, hats, backpacks, trekking poles, and more to create your K-HIKING LOOK, then capture the moment at Namsan’s summit. Apply the HIKE SEOUL photo frame to keep your Seoul hiking memory.',
+          'At the 2026 Seoul Tourism ON Festa, enjoy a special K-HIKING experience with the Seoul Hiking Tourism Center.\nTry jackets, hats, backpacks, trekking poles, and more to create your K-HIKING LOOK, then capture the moment at Namsan’s summit. Apply the HIKE SEOUL photo frame to keep your Seoul hiking memory.',
         hikeClosing:
           'A new Seoul journey where city and nature meet—\nexperience SEOUL HIKING at Namsan!',
       },

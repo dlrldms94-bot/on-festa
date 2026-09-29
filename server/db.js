@@ -34,6 +34,19 @@ export async function initDb() {
     await client.query(`
       CREATE INDEX IF NOT EXISTS notices_created_at_idx ON notices (created_at DESC);
     `);
+    await client.query(`
+      ALTER TABLE notices
+      ADD COLUMN IF NOT EXISTS translations JSONB NOT NULL DEFAULT '{}'::jsonb;
+    `);
+    await client.query(`
+      UPDATE notices
+      SET translations = translations || jsonb_build_object(
+        'ko', jsonb_build_object('title', title, 'body', body)
+      )
+      WHERE (translations = '{}'::jsonb OR translations->'ko' IS NULL)
+        AND title IS NOT NULL
+        AND body IS NOT NULL;
+    `);
   } finally {
     client.release();
   }

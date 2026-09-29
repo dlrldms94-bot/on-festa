@@ -15,7 +15,7 @@
     </noscript>
     <section class="admin-card" id="admin-login">
       <h1 class="admin-card__title">공지 관리자</h1>
-      <p class="admin-card__sub">2026 서울관광 ON 페스타</p>
+      <p class="admin-card__sub">2026 서울관광 ON 페스타 · 다국어 게시판</p>
       <form id="admin-login-form" class="admin-form">
         <label class="admin-label" for="admin-password">관리자 비밀번호</label>
         <input class="admin-input" id="admin-password" type="password" autocomplete="current-password" required>
@@ -35,12 +35,44 @@
       </aside>
       <section class="admin-editor">
         <h2 class="admin-editor__title" id="admin-form-title">새 공지 작성</h2>
+        <p class="admin-editor__hint">한국어는 필수입니다. English · 中文 · 日本語는 선택 입력(제목·본문 모두 입력 시 게시됩니다).</p>
         <form id="admin-notice-form" class="admin-form">
           <input type="hidden" id="admin-notice-id" value="">
-          <label class="admin-label" for="admin-notice-title">제목</label>
-          <input class="admin-input" id="admin-notice-title" type="text" required maxlength="500">
-          <label class="admin-label" for="admin-notice-body">내용</label>
-          <textarea class="admin-textarea" id="admin-notice-body" rows="14" required></textarea>
+
+          <div class="admin-lang-tabs" role="tablist" aria-label="공지 언어">
+            <button type="button" class="admin-lang-tabs__btn is-active" role="tab" aria-selected="true" data-lang-tab="ko">한국어</button>
+            <button type="button" class="admin-lang-tabs__btn" role="tab" aria-selected="false" data-lang-tab="en">English</button>
+            <button type="button" class="admin-lang-tabs__btn" role="tab" aria-selected="false" data-lang-tab="zh">中文</button>
+            <button type="button" class="admin-lang-tabs__btn" role="tab" aria-selected="false" data-lang-tab="ja">日本語</button>
+          </div>
+
+          <div class="admin-lang-panels">
+            <div class="admin-lang-panel is-active" data-lang-panel="ko" role="tabpanel">
+              <label class="admin-label" for="admin-notice-title-ko">제목 (한국어) <span class="admin-label__req">필수</span></label>
+              <input class="admin-input" id="admin-notice-title-ko" type="text" maxlength="500" data-lang-field="title" data-lang="ko">
+              <label class="admin-label" for="admin-notice-body-ko">내용 (한국어) <span class="admin-label__req">필수</span></label>
+              <textarea class="admin-textarea" id="admin-notice-body-ko" rows="12" data-lang-field="body" data-lang="ko"></textarea>
+            </div>
+            <div class="admin-lang-panel" data-lang-panel="en" role="tabpanel" hidden>
+              <label class="admin-label" for="admin-notice-title-en">Title (English)</label>
+              <input class="admin-input" id="admin-notice-title-en" type="text" maxlength="500" data-lang-field="title" data-lang="en">
+              <label class="admin-label" for="admin-notice-body-en">Content (English)</label>
+              <textarea class="admin-textarea" id="admin-notice-body-en" rows="12" data-lang-field="body" data-lang="en"></textarea>
+            </div>
+            <div class="admin-lang-panel" data-lang-panel="zh" role="tabpanel" hidden>
+              <label class="admin-label" for="admin-notice-title-zh">标题 (中文)</label>
+              <input class="admin-input" id="admin-notice-title-zh" type="text" maxlength="500" data-lang-field="title" data-lang="zh">
+              <label class="admin-label" for="admin-notice-body-zh">正文 (中文)</label>
+              <textarea class="admin-textarea" id="admin-notice-body-zh" rows="12" data-lang-field="body" data-lang="zh"></textarea>
+            </div>
+            <div class="admin-lang-panel" data-lang-panel="ja" role="tabpanel" hidden>
+              <label class="admin-label" for="admin-notice-title-ja">タイトル (日本語)</label>
+              <input class="admin-input" id="admin-notice-title-ja" type="text" maxlength="500" data-lang-field="title" data-lang="ja">
+              <label class="admin-label" for="admin-notice-body-ja">本文 (日本語)</label>
+              <textarea class="admin-textarea" id="admin-notice-body-ja" rows="12" data-lang-field="body" data-lang="ja"></textarea>
+            </div>
+          </div>
+
           <label class="admin-check">
             <input type="checkbox" id="admin-notice-pin">
             상단 고정

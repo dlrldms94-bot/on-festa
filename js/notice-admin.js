@@ -1,5 +1,7 @@
 (function () {
   const API_BASE = window.ONFESTA_API_BASE || '';
+  const LANGS = ['ko', 'en', 'zh', 'ja'];
+  const LANG_LABELS = { ko: 'KO', en: 'EN', zh: 'ZH', ja: 'JA' };
 
   async function fetchJson(url, options = {}) {
     let res;
@@ -56,19 +58,84 @@
     }
   }
 
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  function initLangTabs() {
+    const tabs = document.querySelectorAll('[data-lang-tab]');
+    const panels = document.querySelectorAll('[data-lang-panel]');
+
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const code = tab.getAttribute('data-lang-tab');
+        tabs.forEach((t) => {
+          const active = t === tab;
+          t.classList.toggle('is-active', active);
+          t.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        panels.forEach((panel) => {
+          const active = panel.getAttribute('data-lang-panel') === code;
+          panel.classList.toggle('is-active', active);
+          panel.hidden = !active;
+        });
+      });
+    });
+  }
+
+  function emptyTranslations() {
+    return {
+      ko: { title: '', body: '' },
+      en: { title: '', body: '' },
+      zh: { title: '', body: '' },
+      ja: { title: '', body: '' },
+    };
+  }
+
+  function readTranslationsFromForm() {
+    const translations = emptyTranslations();
+    document.querySelectorAll('[data-lang-field]').forEach((el) => {
+      const lang = el.getAttribute('data-lang');
+      const field = el.getAttribute('data-lang-field');
+      if (!LANGS.includes(lang) || !field) return;
+      translations[lang][field] = el.value.trim();
+    });
+    return translations;
+  }
+
+  function fillFormTranslations(translations) {
+    const map = { ...emptyTranslations(), ...(translations || {}) };
+    document.querySelectorAll('[data-lang-field]').forEach((el) => {
+      const lang = el.getAttribute('data-lang');
+      const field = el.getAttribute('data-lang-field');
+      if (!LANGS.includes(lang) || !field) return;
+      el.value = map[lang]?.[field] || '';
+    });
+  }
+
+  function resetForm() {
+    $('#admin-notice-id').value = '';
+    fillFormTranslations(emptyTranslations());
+    $('#admin-notice-pin').checked = false;
+    $('#admin-form-title').textContent = '새 공지 작성';
+    $('#admin-form-error').hidden = true;
+    document.querySelector('[data-lang-tab="ko"]')?.click();
+  }
+
   function init() {
     const loginForm = $('#admin-login-form');
     const loginError = $('#admin-login-error');
     const listEl = $('#admin-notice-list');
     const form = $('#admin-notice-form');
-    const formTitle = $('#admin-form-title');
-    const idInput = $('#admin-notice-id');
-    const titleInput = $('#admin-notice-title');
-    const bodyInput = $('#admin-notice-body');
-    const pinInput = $('#admin-notice-pin');
     const formError = $('#admin-form-error');
     const logoutBtn = $('#admin-logout');
     const newBtn = $('#admin-new');
+    const idInput = $('#admin-notice-id');
+
+    initLangTabs();
 
     async function showApp() {
       setView('app');
@@ -105,14 +172,7 @@
       showLogin();
     });
 
-    newBtn?.addEventListener('click', () => {
-      idInput.value = '';
-      titleInput.value = '';
-      bodyInput.value = '';
-      pinInput.checked = false;
-      formTitle.textContent = '새 공지 작성';
-      formError.hidden = true;
-    });
+    newBtn?.addEventListener('click', resetForm);
 
     async function loadList() {
       listEl.innerHTML = '<li class="admin-notice-list__loading">불러오는 중…</li>';
@@ -123,15 +183,22 @@
           return;
         }
         listEl.innerHTML = data.items
-          .map(
-            (item) => `<li class="admin-notice-list__item">
+          .map((item) => {
+            const langs = (item.langs || ['ko'])
+              .map(
+                (code) =>
+                  `<span class="admin-notice-list__lang">${escapeHtml(LANG_LABELS[code] || code)}</span>`
+              )
+              .join('');
+            return `<li class="admin-notice-list__item">
               <button type="button" class="admin-notice-list__edit" data-id="${item.id}">
                 <strong>${escapeHtml(item.title)}</strong>
                 <span>${item.is_pinned ? '[고정] ' : ''}${formatDate(item.created_at)}</span>
+                <span class="admin-notice-list__langs">${langs}</span>
               </button>
               <button type="button" class="admin-notice-list__delete" data-id="${item.id}" aria-label="삭제">×</button>
-            </li>`
-          )
+            </li>`;
+          })
           .join('');
 
         listEl.querySelectorAll('.admin-notice-list__edit').forEach((btn) => {
@@ -145,22 +212,15 @@
       }
     }
 
-    function escapeHtml(str) {
-      return String(str)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;');
-    }
-
     async function openEdit(id) {
       try {
         const item = await fetchJson(`/api/notices/${id}`);
         idInput.value = item.id;
-        titleInput.value = item.title;
-        bodyInput.value = item.body;
-        pinInput.checked = item.is_pinned;
-        formTitle.textContent = '공지 수정';
+        fillFormTranslations(item.translations);
+        $('#admin-notice-pin').checked = item.is_pinned;
+        $('#admin-form-title').textContent = '공지 수정';
         formError.hidden = true;
+        document.querySelector('[data-lang-tab="ko"]')?.click();
       } catch {
         formError.hidden = false;
         formError.textContent = '공지를 불러오지 못했습니다.';
@@ -175,7 +235,7 @@
             if (!res.ok && res.status !== 204) throw new Error('delete failed');
           }
         );
-        if (idInput.value === String(id)) newBtn.click();
+        if (idInput.value === String(id)) resetForm();
         await loadList();
       } catch {
         window.alert('삭제에 실패했습니다.');
@@ -186,9 +246,8 @@
       e.preventDefault();
       formError.hidden = true;
       const payload = {
-        title: titleInput.value.trim(),
-        body: bodyInput.value.trim(),
-        is_pinned: pinInput.checked,
+        translations: readTranslationsFromForm(),
+        is_pinned: $('#admin-notice-pin').checked,
       };
       const id = idInput.value;
       try {
@@ -197,7 +256,7 @@
         } else {
           await fetchJson('/api/notices', { method: 'POST', body: JSON.stringify(payload) });
         }
-        newBtn.click();
+        resetForm();
         await loadList();
       } catch (err) {
         formError.hidden = false;
