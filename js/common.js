@@ -238,11 +238,23 @@
       if (el.closest('[data-i18n-skip]')) return;
       const base = el.getAttribute('data-i18n-src');
       if (!base) return;
+      const zhJaSrc = el.getAttribute('data-i18n-src-zh-ja');
       const langCode = I18N.SUPPORTED_LANGS.includes(lang) ? lang : I18N.DEFAULT_LANG;
-      const setSrc = (code) => el.setAttribute('src', `${base}-${code}.png`);
+      const setSrc = (code) => {
+        if (zhJaSrc && (code === 'zh' || code === 'ja')) {
+          el.setAttribute('src', zhJaSrc);
+          return;
+        }
+        el.setAttribute('src', `${base}-${code}.png`);
+      };
       setSrc(langCode);
       el.onerror = () => {
         el.onerror = null;
+        if (langCode === 'zh' || langCode === 'ja') {
+          if (langCode !== 'en') setSrc('en');
+          else setSrc('ko');
+          return;
+        }
         if (langCode !== 'en') setSrc('en');
         else if (langCode !== 'ko') setSrc('ko');
       };
