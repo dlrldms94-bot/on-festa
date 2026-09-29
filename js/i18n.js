@@ -703,6 +703,7 @@
     },
   };
 
+  const DEFAULT_LANG = 'ko';
   const SUPPORTED_LANGS = ['ko', 'en', 'zh', 'ja'];
   const HTML_LANG = { ko: 'ko', en: 'en', zh: 'zh-Hans', ja: 'ja' };
 
@@ -725,14 +726,27 @@
   }
 
   function getLang() {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored && SUPPORTED_LANGS.includes(stored)) return stored;
-    const docLang = document.documentElement.lang;
-    if (docLang === 'en') return 'en';
-    if (docLang === 'zh-Hans' || docLang === 'zh') return 'zh';
-    if (docLang === 'ja') return 'ja';
-    return 'ko';
+    try {
+      const stored = localStorage.getItem(STORAGE_KEY);
+      if (stored && SUPPORTED_LANGS.includes(stored)) return stored;
+    } catch (_) {
+      /* storage unavailable */
+    }
+    return DEFAULT_LANG;
   }
+
+  function ensureStoredLang() {
+    try {
+      const stored = localStorage.getItem(STORAGE_KEY);
+      if (!stored || !SUPPORTED_LANGS.includes(stored)) {
+        localStorage.setItem(STORAGE_KEY, DEFAULT_LANG);
+      }
+    } catch (_) {
+      /* storage unavailable */
+    }
+  }
+
+  ensureStoredLang();
 
   function setLang(lang) {
     if (!SUPPORTED_LANGS.includes(lang)) return;
@@ -754,6 +768,7 @@
 
   window.ONFESTA_I18N = {
     MESSAGES,
+    DEFAULT_LANG,
     SUPPORTED_LANGS,
     getLang,
     getLangOptions,
