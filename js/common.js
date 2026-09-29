@@ -1,10 +1,16 @@
 (function () {
   const I18N = window.ONFESTA_I18N;
 
-  function logos(base) {
+  function festaLogoPath(base, lang) {
+    const b = base || '';
+    const code = I18N.SUPPORTED_LANGS.includes(lang) ? lang : I18N.DEFAULT_LANG;
+    return `${b}img/m-tit-${code}.png`;
+  }
+
+  function logos(base, lang) {
     const b = base || '';
     return {
-      festa: `${b}img/m-tit.png`,
+      festa: festaLogoPath(b, lang),
       headerPartner1: `${b}img/m-logo-1.png`,
       headerPartner2: `${b}img/m-logo-2.png`,
       footerPartner: `${b}img/f-logo.png`,
@@ -102,7 +108,7 @@
         </li>`;
       })
       .join('');
-    const logo = logos(b);
+    const logo = logos(b, lang);
 
     return `
       <header class="site-header">
@@ -154,7 +160,7 @@
   function renderFooter(lang) {
     const t = (k) => I18N.t(k, lang);
     const b = basePath();
-    const logo = logos(b);
+    const logo = logos(b, lang);
 
     return `
       <footer class="site-footer">
@@ -239,13 +245,19 @@
       const base = el.getAttribute('data-i18n-src');
       if (!base) return;
       const zhJaSrc = el.getAttribute('data-i18n-src-zh-ja');
+      const ext = el.getAttribute('data-i18n-src-ext') || 'png';
+      const langOnly = el.hasAttribute('data-i18n-src-lang-only');
       const langCode = I18N.SUPPORTED_LANGS.includes(lang) ? lang : I18N.DEFAULT_LANG;
       const setSrc = (code) => {
         if (zhJaSrc && (code === 'zh' || code === 'ja')) {
           el.setAttribute('src', zhJaSrc);
           return;
         }
-        el.setAttribute('src', `${base}-${code}.png`);
+        if (langOnly) {
+          el.setAttribute('src', `${base}${code}.${ext}`);
+          return;
+        }
+        el.setAttribute('src', `${base}-${code}.${ext}`);
       };
       setSrc(langCode);
       el.onerror = () => {

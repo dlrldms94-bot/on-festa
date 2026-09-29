@@ -108,6 +108,22 @@
     "v": "© 2026 Seoul Tourism ON Festa. All rights reserved."
   },
   {
+    "path": "home.hero.datePrimary",
+    "v": ""
+  },
+  {
+    "path": "home.hero.dateSecondary",
+    "v": "Oct 2(Fri)~3(Sat) | 13:00~20:00"
+  },
+  {
+    "path": "home.hero.placePrimary",
+    "v": ""
+  },
+  {
+    "path": "home.hero.placeSecondary",
+    "v": "Namsan Palgakjeong Pavilion"
+  },
+  {
     "path": "menuOpen",
     "v": "Open menu"
   },
@@ -149,19 +165,19 @@
   },
   {
     "path": "overviewIntro.p1",
-    "v": "At Namsan, one of Seoul’s iconic destinations,<br>enjoy <span class=\"overview-mark overview-mark--yellow\">Korea’s tradition</span> and <span class=\"overview-mark overview-mark--yellow\">contemporary culture</span> all in one place!"
+    "v": "<span class=\"overview-intro-emph\">Discover the vibrant charms of Seoul,<br>where tradition meets modernity,</span><br>at Namsan, one of the city’s most iconic landmarks!"
   },
   {
     "path": "overviewIntro.p2",
-    "v": "Exciting K-POP and live performances,<br>traditional shows full of Korean charm and energy,<br>K-culture experiences and folk games everyone can join!"
+    "v": "Experience everything from exciting K-pop<br>and live performances to traditional Korean performances<br>showcasing Korea’s beauty and spirit,<br>along with hands-on K-culture experiences and traditional games!"
   },
   {
     "path": "overviewIntro.p3",
-    "v": "Enjoy diverse programs, join the stamp tour, collect stamps,<br>and take home <span class=\"overview-mark overview-mark--yellow\">special souvenirs</span>!"
+    "v": "Enjoy a variety of activities, take part in the Stamp Tour,<br>and collect stamps to earn a special souvenir!"
   },
   {
     "path": "overviewIntro.p4",
-    "v": "This fall at Namsan,<br><span class=\"overview-mark overview-mark--pink\">turn ON the joy of Seoul</span>!"
+    "v": "This fall, experience a special day in Seoul at Namsan.<br>Discover a new side of Seoul tourism<br><span class=\"overview-mark overview-mark--pink\">at the 2026 Seoul Tourism ON Festa!</span>"
   },
   {
     "path": "timetable.titleAlt",
@@ -193,7 +209,7 @@
   },
   {
     "path": "timetable.prepTime",
-    "v": "Preparation time"
+    "v": "Break Time"
   },
   {
     "path": "timetable.closing",
@@ -201,7 +217,7 @@
   },
   {
     "path": "timetable.opening",
-    "v": "Opening ceremony"
+    "v": "Break Time"
   },
   {
     "path": "timetable.rehearsal",
@@ -217,47 +233,47 @@
   },
   {
     "path": "timetable.c1300_sat_main",
-    "v": "Folk songs & samulnori performance"
+    "v": "Folk Song & Samulnori Performance"
   },
   {
     "path": "timetable.c1300_sat_sub",
-    "v": "Yeonhee Jeomchuri"
+    "v": "YEONHUI JEOMCHURI"
   },
   {
     "path": "timetable.c1400_fri_main",
-    "v": "Percussion performance"
+    "v": "Percussion Performance"
   },
   {
     "path": "timetable.c1400_fri_sub",
-    "v": "Hwarang"
+    "v": "HWARYEO"
   },
   {
     "path": "timetable.c1400_sat_main",
-    "v": "Joseon magic troupe"
+    "v": "Joseon Magic Show"
   },
   {
     "path": "timetable.c1400_sat_sub",
-    "v": "Magic Troupe Dachae"
+    "v": "DACHAE"
   },
   {
     "path": "timetable.c1500",
-    "v": "Namsan beacon-fire traditional performance"
+    "v": "Namsan Beacon Mound Traditional Performance"
   },
   {
     "path": "timetable.c1600_fri_main",
-    "v": "Lion Special Forces Baeksujiwang"
+    "v": "Lion Mask Performance “King of Beasts”"
   },
   {
     "path": "timetable.c1600_fri_sub",
-    "v": "Yeonhee Jeomchuri"
+    "v": "YEONHUI JEOMCHURI"
   },
   {
     "path": "timetable.c1600_sat_main",
-    "v": "Taekwondo performance"
+    "v": "Taekwondo Performance"
   },
   {
     "path": "timetable.c1600_sat_sub",
-    "v": "Bigabi"
+    "v": "BIGABI"
   },
   {
     "path": "timetable.c1700_fri_main",
@@ -265,55 +281,55 @@
   },
   {
     "path": "timetable.c1700_fri_sub",
-    "v": "Yeonhee Jeomchuri"
+    "v": "YEONHUI JEOMCHURI"
   },
   {
     "path": "timetable.c1700_sat_main",
-    "v": "K-pop performance"
+    "v": "K-POP Performance"
   },
   {
     "path": "timetable.c1700_sat_sub",
-    "v": "One Million [Amazon]"
+    "v": "1MILLION [AMAZON]"
   },
   {
     "path": "timetable.c1730_sat_main",
-    "v": "K-pop class"
+    "v": "K-POP Dance Class"
   },
   {
     "path": "timetable.c1730_sat_sub",
-    "v": "One Million [Amazon]"
+    "v": "1MILLION [AMAZON]"
   },
   {
     "path": "timetable.c1800_fri_main",
-    "v": "Classic gayageum"
+    "v": "Classical Gayageum Performance"
   },
   {
     "path": "timetable.c1800_fri_sub",
-    "v": "Gaonsori"
+    "v": "GAONSORI"
   },
   {
     "path": "timetable.c1830_fri_main",
-    "v": "Singer performance"
+    "v": "Live Performance"
   },
   {
     "path": "timetable.c1830_fri_sub",
-    "v": "Min Kyung-hoon"
+    "v": "MIN KYUNG HOON"
   },
   {
     "path": "timetable.c1830_sat_main",
-    "v": "Korean traditional B-boy show"
+    "v": "Korean Traditional Music B-Boy Performance"
   },
   {
     "path": "timetable.c1830_sat_sub",
-    "v": "S.P.L.A.V.A"
+    "v": "S-FLAVA"
   },
   {
     "path": "timetable.c1900_sat_main",
-    "v": "Singer performance"
+    "v": "Live Band Performance"
   },
   {
     "path": "timetable.c1900_sat_sub",
-    "v": "The Dickpunks"
+    "v": "DICKPUNKS"
   },
   {
     "path": "directions.titleAlt",
@@ -333,43 +349,79 @@
   },
   {
     "path": "directions.transitTitle",
-    "v": "Public transit"
+    "v": "Getting here"
   },
   {
     "path": "directions.transitSub",
-    "v": "Subway and bus are the most convenient way to get here."
+    "v": ""
+  },
+  {
+    "path": "directions.subwayTitle",
+    "v": "By Subway"
+  },
+  {
+    "path": "directions.cableTitle",
+    "v": "By Cable Car"
   },
   {
     "path": "directions.chungmuroTitle",
-    "v": "Chungmuro Station (Lines 3 & 4)"
+    "v": "Lines 3 & 4 · Chungmuro Station"
+  },
+  {
+    "path": "directions.chungmuroName",
+    "v": "Chungmuro Station"
   },
   {
     "path": "directions.chungmuroDesc",
-    "v": "Exit 2 → Bus 01A·01B → N Seoul Tower stop → Palgakjeong Pavilion"
+    "v": "Exit 2 > Take bus 01A or 01B > Get off at Namsan Seoul Tower > Walk to Palgakjeong Pavilion"
   },
   {
     "path": "directions.donggukTitle",
-    "v": "Dongguk Univ. Station (Line 3)"
+    "v": "Line 3 · Dongguk Univ. Station"
+  },
+  {
+    "path": "directions.donggukName",
+    "v": "Dongguk Univ. Station"
   },
   {
     "path": "directions.donggukDesc",
-    "v": "Exit 6 → Bus 01A·01B → N Seoul Tower stop → Palgakjeong Pavilion"
+    "v": "Exit 6 > Take bus 01A or 01B > Get off at Namsan Seoul Tower > Walk to Palgakjeong Pavilion"
   },
   {
     "path": "directions.myeongdongTitle",
-    "v": "Myeong-dong Station (Line 4)"
+    "v": "Line 4 · Myeong-dong Station"
+  },
+  {
+    "path": "directions.myeongdongName",
+    "v": "Myeong-dong Station"
   },
   {
     "path": "directions.myeongdongDesc",
-    "v": "Exit 3 → Namsan Cable Car → Upper station → Palgakjeong Pavilion"
+    "v": "Exit 3 > Walk about 5 min to Namsan Yejang Bus Transfer Parking Lot > Take bus 01A or 01B > Get off at Namsan Seoul Tower > Walk to Palgakjeong Pavilion"
+  },
+  {
+    "path": "directions.cableMyeongdongDesc",
+    "v": "Exit 3 > Walk about 10 min to Namsan Cable Car Station > Take the cable car > Upper Station > Walk to Palgakjeong Pavilion"
+  },
+  {
+    "path": "directions.cableNote",
+    "v": "※ Namsan cable car requires a separate fare"
+  },
+  {
+    "path": "directions.cableFareAdult",
+    "v": "Adult: Round-trip KRW 15,000 / One-way KRW 12,000"
+  },
+  {
+    "path": "directions.cableFareChild",
+    "v": "Child: Round-trip KRW 11,500 / One-way KRW 9,000"
   },
   {
     "path": "directions.carTitle",
-    "v": "By car"
+    "v": "By Car"
   },
   {
     "path": "directions.carDesc",
-    "v": "Private vehicles are restricted on Namsan summit roads."
+    "v": "Private vehicles are restricted from entering the Namsan summit area."
   },
   {
     "path": "directions.carNote",
@@ -421,7 +473,7 @@
   },
   {
     "path": "venuePage.exp1",
-    "v": "Korean Name Studio & Digital Caricature"
+    "v": "What's your Korea Name?"
   },
   {
     "path": "venuePage.exp2",

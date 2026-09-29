@@ -48,57 +48,116 @@
             </h2>
             <p class="directions-panel__sub" data-i18n="directions.venueSub">남산 팔각정 일원 | Namsan Palgakjeong Pavilion</p>
           </header>
-          <div class="directions-map">
-            <iframe
-              class="directions-map__embed"
-              src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357ca2579f4f8ea9%3A0x7002b3add0c69422!2z64Ko7IKw7YyU6rCB7KCV!5e0!3m2!1sko!2skr!4v1789981099615!5m2!1sko!2skr"
-              title="남산 팔각정 일원 행사장 위치 안내 지도"
-              data-i18n-alt="directions.mapAlt"
-              loading="lazy"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen></iframe>
+          <div class="directions-map-stack">
+            <figure class="directions-map__figure">
+              <img
+                class="directions-map__photo"
+                src="../img/location/ko.jpg"
+                alt=""
+                data-i18n-src="../img/location/"
+                data-i18n-src-ext="jpg"
+                data-i18n-src-lang-only
+                data-i18n-alt="directions.mapAlt"
+                width="1201"
+                height="714"
+                loading="lazy"
+                decoding="async">
+            </figure>
+            <div class="directions-map">
+              <iframe
+                class="directions-map__embed"
+                src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357ca2579f4f8ea9%3A0x7002b3add0c69422!2z64Ko7IKw7YyU6rCB7KCV!5e0!3m2!1sko!2skr!4v1789981099615!5m2!1sko!2skr"
+                title="남산 팔각정 일원 행사장 위치 안내 지도"
+                data-i18n-alt="directions.mapAlt"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
           </div>
         </section>
 
-        <section class="directions-panel directions-panel--transit" aria-labelledby="directions-transit-heading">
-          <header class="directions-transit__head">
-            <h2 id="directions-transit-heading" class="directions-transit__title" data-i18n="directions.transitTitle">
-              대중교통 이용안내
-            </h2>
-            <p class="directions-transit__sub" data-i18n="directions.transitSub">지하철과 버스를 이용하면 더 편리하게 오실 수 있습니다.</p>
-          </header>
+        <section class="directions-transit" aria-labelledby="directions-transit-heading">
+          <h2 id="directions-transit-heading" class="sr-only" data-i18n="directions.transitTitle">교통 이용 안내</h2>
 
-          <ul class="directions-routes">
-            <li class="directions-route directions-route--blue">
-              <span class="directions-route__icon" aria-hidden="true">🚇</span>
-              <div class="directions-route__body">
-                <h3 class="directions-route__title" data-i18n="directions.chungmuroTitle">충무로역 (3,4호선)</h3>
-                <p class="directions-route__desc" data-i18n="directions.chungmuroDesc">2번 출구 → 01A·01B번 버스 → 남산서울타워 하차 → 팔각정</p>
+          <div class="directions-mode-stack">
+            <article class="directions-mode-card" aria-labelledby="directions-subway-heading">
+              <header class="directions-mode-card__head">
+                <span class="directions-mode-card__icon" aria-hidden="true">🚇</span>
+                <h3 id="directions-subway-heading" class="directions-mode-card__title" data-i18n="directions.subwayTitle">
+                  지하철 이용 시
+                </h3>
+              </header>
+              <ul class="directions-route-list">
+                <li class="directions-route-item">
+                  <p class="sr-only" data-i18n="directions.chungmuroTitle">3, 4 충무로역</p>
+                  <div class="directions-station">
+                    <span class="directions-line directions-line--3" aria-hidden="true">3</span>
+                    <span class="directions-line directions-line--4" aria-hidden="true">4</span>
+                    <span class="directions-station__name" data-i18n="directions.chungmuroName">충무로역</span>
+                  </div>
+                  <p class="directions-route-item__desc" data-i18n="directions.chungmuroDesc">
+                    2번 출구 &gt; 01A·01B번 버스 탑승 &gt; 남산서울타워 정류장 하차 &gt; 남산 팔각정까지 도보 이동
+                  </p>
+                </li>
+                <li class="directions-route-item">
+                  <p class="sr-only" data-i18n="directions.donggukTitle">3 동대입구역</p>
+                  <div class="directions-station">
+                    <span class="directions-line directions-line--3" aria-hidden="true">3</span>
+                    <span class="directions-station__name" data-i18n="directions.donggukName">동대입구역</span>
+                  </div>
+                  <p class="directions-route-item__desc" data-i18n="directions.donggukDesc">
+                    6번 출구 &gt; 01A·01B번 버스 탑승 &gt; 남산서울타워 정류장 하차 &gt; 남산 팔각정까지 도보 이동
+                  </p>
+                </li>
+                <li class="directions-route-item">
+                  <p class="sr-only" data-i18n="directions.myeongdongTitle">4 명동역</p>
+                  <div class="directions-station">
+                    <span class="directions-line directions-line--4" aria-hidden="true">4</span>
+                    <span class="directions-station__name" data-i18n="directions.myeongdongName">명동역</span>
+                  </div>
+                  <p class="directions-route-item__desc" data-i18n="directions.myeongdongDesc">
+                    3번 출구 &gt; 남산예장버스환승주차장까지 도보 약 5분 &gt; 01A·01B번 버스 탑승 &gt; 남산서울타워 정류장 하차 &gt; 남산 팔각정까지 도보 이동
+                  </p>
+                </li>
+              </ul>
+            </article>
+
+            <article class="directions-mode-card" aria-labelledby="directions-cable-heading">
+              <header class="directions-mode-card__head">
+                <span class="directions-mode-card__icon" aria-hidden="true">🚡</span>
+                <h3 id="directions-cable-heading" class="directions-mode-card__title" data-i18n="directions.cableTitle">
+                  케이블카 이용 시
+                </h3>
+              </header>
+              <div class="directions-mode-card__body">
+                <p class="sr-only" data-i18n="directions.myeongdongTitle">4 명동역</p>
+                <div class="directions-station">
+                  <span class="directions-line directions-line--4" aria-hidden="true">4</span>
+                  <span class="directions-station__name" data-i18n="directions.myeongdongName">명동역</span>
+                </div>
+                <p class="directions-route-item__desc" data-i18n="directions.cableMyeongdongDesc">
+                  3번 출구 &gt; 남산케이블카 하부 승강장까지 도보 이동 &gt; 케이블카 탑승 &gt; 남산케이블카 상부 승강장 하차 &gt; 남산 팔각정까지 도보 이동
+                </p>
+                <p class="directions-route-item__note" data-i18n="directions.cableNote">※ 남산케이블카는 유료 이용 시설입니다.</p>
+                <ul class="directions-fare-list">
+                  <li data-i18n="directions.cableFareAdult">대인 : 왕복 15,000원 / 편도 12,000원</li>
+                  <li data-i18n="directions.cableFareChild">소인 : 왕복 11,500원 / 편도 9,000원</li>
+                </ul>
               </div>
-            </li>
-            <li class="directions-route directions-route--orange">
-              <span class="directions-route__icon" aria-hidden="true">🚇</span>
-              <div class="directions-route__body">
-                <h3 class="directions-route__title" data-i18n="directions.donggukTitle">동대입구역 (3호선)</h3>
-                <p class="directions-route__desc" data-i18n="directions.donggukDesc">6번 출구 → 01A·01B번 버스 → 남산서울타워 하차 → 팔각정</p>
-              </div>
-            </li>
-            <li class="directions-route directions-route--purple">
-              <span class="directions-route__icon" aria-hidden="true">🚡</span>
-              <div class="directions-route__body">
-                <h3 class="directions-route__title" data-i18n="directions.myeongdongTitle">명동역 (4호선)</h3>
-                <p class="directions-route__desc" data-i18n="directions.myeongdongDesc">3번 출구 → 남산케이블카 → 상부 승강장 → 팔각정</p>
-              </div>
-            </li>
-            <li class="directions-route directions-route--car">
-              <span class="directions-route__icon" aria-hidden="true">🚘</span>
-              <div class="directions-route__body">
-                <h3 class="directions-route__title" data-i18n="directions.carTitle">차량 안내</h3>
-                <p class="directions-route__desc" data-i18n="directions.carDesc">남산 정상부는 일반 승용차 진입이 제한됩니다.</p>
-                <p class="directions-route__note" data-i18n="directions.carNote">가급적 대중교통을 이용해 주세요.</p>
-              </div>
-            </li>
-          </ul>
+            </article>
+
+            <article class="directions-mode-card" aria-labelledby="directions-car-heading">
+              <header class="directions-mode-card__head">
+                <span class="directions-mode-card__icon" aria-hidden="true">🚘</span>
+                <h3 id="directions-car-heading" class="directions-mode-card__title" data-i18n="directions.carTitle">
+                  자가용 이용 시
+                </h3>
+              </header>
+              <p class="directions-route-item__desc directions-route-item__desc--solo" data-i18n="directions.carDesc">
+                남산 정상 부근은 일반 승용차 통행이 제한됩니다.
+              </p>
+            </article>
+          </div>
 
           <a
             class="directions-naver"

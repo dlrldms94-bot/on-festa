@@ -108,6 +108,22 @@
     "v": "© 2026 Seoul Tourism ON Festa. All rights reserved."
   },
   {
+    "path": "home.hero.datePrimary",
+    "v": "2026. 10. 2. (金) - 10. 3. (土)"
+  },
+  {
+    "path": "home.hero.dateSecondary",
+    "v": "Oct 2(Fri)~3(Sat) | 13:00~20:00"
+  },
+  {
+    "path": "home.hero.placePrimary",
+    "v": "南山八角亭一帯"
+  },
+  {
+    "path": "home.hero.placeSecondary",
+    "v": "Namsan Palgakjeong Pavilion"
+  },
+  {
     "path": "menuOpen",
     "v": "メニューを開く"
   },
@@ -149,19 +165,19 @@
   },
   {
     "path": "overviewIntro.p1",
-    "v": "ソウルの代表観光地・南山（ナムサン）で、<br><span class=\"overview-mark overview-mark--yellow\">韓国の伝統</span>と<span class=\"overview-mark overview-mark--yellow\">現代文化</span>を一度に楽しもう！"
+    "v": "ソウルを代表する観光名所・南山（ナムサン）で、<br><span class=\"overview-intro-emph\">伝統と現代が調和するソウルの魅力を満喫！</span>"
   },
   {
     "path": "overviewIntro.p2",
-    "v": "盛り上がるK-POPとライブ公演、<br>韓国の魅力と「フン（興）」あふれる伝統文化公演、<br>誰でも楽しめるK-カルチャー体験と伝統遊びまで！"
+    "v": "心弾むK-POPやライブパフォーマンスから、<br>韓国ならではの趣と活気あふれる伝統文化公演、<br>実際に参加して楽しめるKカルチャー体験や伝統遊びまで！"
   },
   {
     "path": "overviewIntro.p3",
-    "v": "多彩なプログラムを楽しみ、スタンプツアーに参加してスタンプを集め、<br><span class=\"overview-mark overview-mark--yellow\">特別な記念品</span>もお持ち帰りください！"
+    "v": "多彩なプログラムを楽しみ、スタンプラリーにも参加！<br>スタンプを集めると、特別な記念品ももらえます。"
   },
   {
     "path": "overviewIntro.p4",
-    "v": "この秋、南山で<br><span class=\"overview-mark overview-mark--pink\">ソウルの楽しさを ON</span> しよう！"
+    "v": "この秋、南山で繰り広げられる特別なソウルの一日。<br><span class=\"overview-mark overview-mark--pink\">「2026 ソウル観光 ON フェスタ」で、</span><br>ソウル観光の新たな魅力を発見してみてください！"
   },
   {
     "path": "timetable.titleAlt",
@@ -193,7 +209,7 @@
   },
   {
     "path": "timetable.prepTime",
-    "v": "準備時間"
+    "v": "Break Time"
   },
   {
     "path": "timetable.closing",
@@ -201,7 +217,7 @@
   },
   {
     "path": "timetable.opening",
-    "v": "開会式"
+    "v": "Break Time"
   },
   {
     "path": "timetable.rehearsal",
@@ -221,99 +237,99 @@
   },
   {
     "path": "timetable.c1300_sat_sub",
-    "v": "Yeonhee Jeomchuri（연희점추리）"
+    "v": "YEONHUI JEOMCHURI"
   },
   {
     "path": "timetable.c1400_fri_main",
-    "v": "打楽器公演"
+    "v": "打楽器パフォーマンス"
   },
   {
     "path": "timetable.c1400_fri_sub",
-    "v": "Hwarang（화랑）"
+    "v": "HWARYEO"
   },
   {
     "path": "timetable.c1400_sat_main",
-    "v": "朝鮮マジック団"
+    "v": "朝鮮マジックショー"
   },
   {
     "path": "timetable.c1400_sat_sub",
-    "v": "Magic Troupe Dachae（マジック劇団 多采）"
+    "v": "DACHAE"
   },
   {
     "path": "timetable.c1500",
-    "v": "南山（ナムサン）烽燧台（봉수대）伝統公演"
+    "v": "南山烽火台 伝統公演"
   },
   {
     "path": "timetable.c1600_fri_main",
-    "v": "Lion Special Forces Baeksujiwang（사자특공대 백수지왕）"
+    "v": "獅子舞公演 「百獣の王」"
   },
   {
     "path": "timetable.c1600_fri_sub",
-    "v": "Yeonhee Jeomchuri（연희점추리）"
+    "v": "YEONHUI JEOMCHURI"
   },
   {
     "path": "timetable.c1600_sat_main",
-    "v": "テコンドー公演"
+    "v": "テコンドーパフォーマンス"
   },
   {
     "path": "timetable.c1600_sat_sub",
-    "v": "Bigabi（비가비）"
+    "v": "BIGABI"
   },
   {
     "path": "timetable.c1700_fri_main",
-    "v": "Namsan Rhythm Challenge（南山リズムチャレンジ）"
+    "v": "南山リズムチャレンジ"
   },
   {
     "path": "timetable.c1700_fri_sub",
-    "v": "Yeonhee Jeomchuri（연희점추리）"
+    "v": "YEONHUI JEOMCHURI"
   },
   {
     "path": "timetable.c1700_sat_main",
-    "v": "K-pop公演"
+    "v": "K-POP ダンスパフォーマンス"
   },
   {
     "path": "timetable.c1700_sat_sub",
-    "v": "1MILLION [Amazon]"
+    "v": "1MILLION [AMAZON]"
   },
   {
     "path": "timetable.c1730_sat_main",
-    "v": "K-popクラス"
+    "v": "K-POP ダンスクラス"
   },
   {
     "path": "timetable.c1730_sat_sub",
-    "v": "1MILLION [Amazon]"
+    "v": "1MILLION [AMAZON]"
   },
   {
     "path": "timetable.c1800_fri_main",
-    "v": "クラシック伽倻琴（ガヤ금）"
+    "v": "クラシック伽倻琴"
   },
   {
     "path": "timetable.c1800_fri_sub",
-    "v": "Gaonsori（가온소리）"
+    "v": "GAONSORI"
   },
   {
     "path": "timetable.c1830_fri_main",
-    "v": "シンガー公演"
+    "v": "歌手公演"
   },
   {
     "path": "timetable.c1830_fri_sub",
-    "v": "Min Kyung-hoon（ミン・ギョンフン）"
+    "v": "MIN KYUNG HOON"
   },
   {
     "path": "timetable.c1830_sat_main",
-    "v": "韓国伝統B-boyショー"
+    "v": "韓国伝統音楽 B-Boy"
   },
   {
     "path": "timetable.c1830_sat_sub",
-    "v": "S.P.L.A.V.A"
+    "v": "S-FLAVA"
   },
   {
     "path": "timetable.c1900_sat_main",
-    "v": "シンガー公演"
+    "v": "バンド公演"
   },
   {
     "path": "timetable.c1900_sat_sub",
-    "v": "The Dickpunks"
+    "v": "DICKPUNKS"
   },
   {
     "path": "directions.titleAlt",
@@ -333,43 +349,79 @@
   },
   {
     "path": "directions.transitTitle",
-    "v": "公共交通"
+    "v": "アクセス"
   },
   {
     "path": "directions.transitSub",
-    "v": "地下鉄とバスが最も便利です。"
+    "v": ""
+  },
+  {
+    "path": "directions.subwayTitle",
+    "v": "地下鉄をご利用の場合"
+  },
+  {
+    "path": "directions.cableTitle",
+    "v": "ケーブルカーをご利用の場合"
   },
   {
     "path": "directions.chungmuroTitle",
-    "v": "忠武路（チュンムロ）駅（3・4号线）"
+    "v": "3・4号线 忠武路（チュンムロ）駅"
+  },
+  {
+    "path": "directions.chungmuroName",
+    "v": "忠武路(チュンムロ)駅"
   },
   {
     "path": "directions.chungmuroDesc",
-    "v": "2番出口 → バス01A・01B → 南山ソウルタワー停留所 → 八角亭"
+    "v": "2番出口 → 01A・01B番バス乗車 → 南山ソウルタワー下車 → 八角亭へ徒歩移動"
   },
   {
     "path": "directions.donggukTitle",
-    "v": "東国大学（トングクデ）駅（3号线）"
+    "v": "3号线 東大入口(トンデイプク)駅"
+  },
+  {
+    "path": "directions.donggukName",
+    "v": "東大入口(トンデイプク)駅"
   },
   {
     "path": "directions.donggukDesc",
-    "v": "6番出口 → バス01A・01B → 南山ソウルタワー停留所 → 八角亭"
+    "v": "6番出口 → 01A・01B番バス乗車 → 南山ソウルタワー下車 → 八角亭へ徒歩移動"
   },
   {
     "path": "directions.myeongdongTitle",
-    "v": "明洞（ミョンドン）駅（4号线）"
+    "v": "4号线 明洞（ミョンドン）駅"
+  },
+  {
+    "path": "directions.myeongdongName",
+    "v": "明洞(ミョンドン)駅"
   },
   {
     "path": "directions.myeongdongDesc",
-    "v": "3番出口 → 南山ケーブルカー → 山上駅 → 八角亭"
+    "v": "3番出口 → 南山藝場バス乗換駐車場へ徒歩5分 → 01A・01B番バス乗車 → 南山ソウルタワー下車 → 八角亭へ徒歩移動"
+  },
+  {
+    "path": "directions.cableMyeongdongDesc",
+    "v": "3番出口 → 南山ケーブルカー乗り場まで徒歩約10分 → ケーブルカー乗車 → 山頂側乗り場で下車 → 八角亭まで徒歩"
+  },
+  {
+    "path": "directions.cableNote",
+    "v": "※ 南山ケーブルカーは有料です"
+  },
+  {
+    "path": "directions.cableFareAdult",
+    "v": "大人：往復 15,000ウォン / 片道 12,000ウォン"
+  },
+  {
+    "path": "directions.cableFareChild",
+    "v": "子ども：往復 11,500ウォン / 片道 9,000ウォン"
   },
   {
     "path": "directions.carTitle",
-    "v": "お車で"
+    "v": "お車でお越しの場合"
   },
   {
     "path": "directions.carDesc",
-    "v": "南山山頂部の道路は一般車両の通行が制限されています。"
+    "v": "南山山頂エリアは、一般乗用車の進入が制限されています。"
   },
   {
     "path": "directions.carNote",
@@ -421,7 +473,7 @@
   },
   {
     "path": "venuePage.exp1",
-    "v": "韓国名スタジオ＆デジタル似顔絵"
+    "v": "What's your Korea Name?"
   },
   {
     "path": "venuePage.exp2",

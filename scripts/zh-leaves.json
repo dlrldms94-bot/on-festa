@@ -108,6 +108,22 @@
     "v": "© 2026 Seoul Tourism ON Festa. 保留所有权利。"
   },
   {
+    "path": "home.hero.datePrimary",
+    "v": "2026. 10. 2. (周五) - 10. 3. (周六)"
+  },
+  {
+    "path": "home.hero.dateSecondary",
+    "v": "Oct 2(Fri)~3(Sat) | 13:00~20:00"
+  },
+  {
+    "path": "home.hero.placePrimary",
+    "v": "南山八角亭 一带"
+  },
+  {
+    "path": "home.hero.placeSecondary",
+    "v": "Namsan Palgakjeong Pavilion"
+  },
+  {
     "path": "menuOpen",
     "v": "打开菜单"
   },
@@ -149,19 +165,19 @@
   },
   {
     "path": "overviewIntro.p1",
-    "v": "在首尔代表性景点南山，<br>一处尽享<span class=\"overview-mark overview-mark--yellow\">韩国传统</span>与<span class=\"overview-mark overview-mark--yellow\">当代文化</span>！"
+    "v": "在首尔的代表性旅游景点——南山，<br><span class=\"overview-intro-emph\">感受传统与现代交融的首尔多彩魅力！</span>"
   },
   {
     "path": "overviewIntro.p2",
-    "v": "热辣的 K-POP 与现场演出，<br>充满韩国风情与活力的传统文化表演，<br>人人可参与的 K 文化体验与传统民俗游戏！"
+    "v": "从欢快的 K-POP 与现场演出，<br>到展现韩国风韵与活力的传统文化表演，<br>再到可以亲身参与体验的 K-文化体验和传统游戏！"
   },
   {
     "path": "overviewIntro.p3",
-    "v": "畅玩多样节目、参加盖章之旅、收集印章，<br>带走<span class=\"overview-mark overview-mark--yellow\">特别纪念品</span>！"
+    "v": "体验丰富多彩的活动，参与集章之旅，<br>收集印章后还可领取特别纪念品。"
   },
   {
     "path": "overviewIntro.p4",
-    "v": "今年秋天，在南山<br><span class=\"overview-mark overview-mark--pink\">开启首尔之悦 ON</span>！"
+    "v": "今年秋天，在南山度过特别的首尔一日。<br><span class=\"overview-mark overview-mark--pink\">在「2026 首尔旅游 ON FESTA」，</span><br>发现首尔旅游的全新魅力吧！"
   },
   {
     "path": "timetable.titleAlt",
@@ -193,7 +209,7 @@
   },
   {
     "path": "timetable.prepTime",
-    "v": "准备时间"
+    "v": "Break Time"
   },
   {
     "path": "timetable.closing",
@@ -201,7 +217,7 @@
   },
   {
     "path": "timetable.opening",
-    "v": "开幕式"
+    "v": "Break Time"
   },
   {
     "path": "timetable.rehearsal",
@@ -217,11 +233,11 @@
   },
   {
     "path": "timetable.c1300_sat_main",
-    "v": "民谣与四物乐表演"
+    "v": "韩国民谣与四物打击乐表演"
   },
   {
     "path": "timetable.c1300_sat_sub",
-    "v": "Yeonhee Jeomchuri（연희점추리）"
+    "v": "YEONHUI JEOMCHURI"
   },
   {
     "path": "timetable.c1400_fri_main",
@@ -229,7 +245,7 @@
   },
   {
     "path": "timetable.c1400_fri_sub",
-    "v": "Hwarang（화랑）"
+    "v": "HWARYEO"
   },
   {
     "path": "timetable.c1400_sat_main",
@@ -237,19 +253,19 @@
   },
   {
     "path": "timetable.c1400_sat_sub",
-    "v": "Magic Troupe Dachae（魔术剧团 多采）"
+    "v": "DACHAE"
   },
   {
     "path": "timetable.c1500",
-    "v": "南山烽燧台传统表演"
+    "v": "南山烽火台传统表演"
   },
   {
     "path": "timetable.c1600_fri_main",
-    "v": "Lion Special Forces Baeksujiwang（狮子特攻队 白水之王）"
+    "v": "舞狮表演《百兽之王》"
   },
   {
     "path": "timetable.c1600_fri_sub",
-    "v": "Yeonhee Jeomchuri（연희점추리）"
+    "v": "YEONHUI JEOMCHURI"
   },
   {
     "path": "timetable.c1600_sat_main",
@@ -257,39 +273,39 @@
   },
   {
     "path": "timetable.c1600_sat_sub",
-    "v": "Bigabi（비가비）"
+    "v": "BIGABI"
   },
   {
     "path": "timetable.c1700_fri_main",
-    "v": "Namsan Rhythm Challenge（南山节奏挑战）"
+    "v": "南山节奏体验"
   },
   {
     "path": "timetable.c1700_fri_sub",
-    "v": "Yeonhee Jeomchuri（연희점추리）"
+    "v": "YEONHUI JEOMCHURI"
   },
   {
     "path": "timetable.c1700_sat_main",
-    "v": "K-pop 演出"
+    "v": "K-POP舞蹈表演"
   },
   {
     "path": "timetable.c1700_sat_sub",
-    "v": "1MILLION [Amazon]"
+    "v": "1MILLION [AMAZON]"
   },
   {
     "path": "timetable.c1730_sat_main",
-    "v": "K-pop 课堂"
+    "v": "K-POP舞蹈课程"
   },
   {
     "path": "timetable.c1730_sat_sub",
-    "v": "1MILLION [Amazon]"
+    "v": "1MILLION [AMAZON]"
   },
   {
     "path": "timetable.c1800_fri_main",
-    "v": "经典伽倻琴"
+    "v": "古典音乐 X 韩国传统音乐"
   },
   {
     "path": "timetable.c1800_fri_sub",
-    "v": "Gaonsori（가온소리）"
+    "v": "GAONSORI"
   },
   {
     "path": "timetable.c1830_fri_main",
@@ -297,23 +313,23 @@
   },
   {
     "path": "timetable.c1830_fri_sub",
-    "v": "Min Kyung-hoon（闵庚勋）"
+    "v": "MIN KYUNG HOON"
   },
   {
     "path": "timetable.c1830_sat_main",
-    "v": "韩国传统 B-boy 秀"
+    "v": "韩国传统音乐表演"
   },
   {
     "path": "timetable.c1830_sat_sub",
-    "v": "S.P.L.A.V.A"
+    "v": "S-FLAVA"
   },
   {
     "path": "timetable.c1900_sat_main",
-    "v": "歌手演出"
+    "v": "乐队演出"
   },
   {
     "path": "timetable.c1900_sat_sub",
-    "v": "The Dickpunks"
+    "v": "DICKPUNKS"
   },
   {
     "path": "directions.titleAlt",
@@ -333,43 +349,79 @@
   },
   {
     "path": "directions.transitTitle",
-    "v": "公共交通"
+    "v": "交通指南"
   },
   {
     "path": "directions.transitSub",
-    "v": "地铁与巴士最为便捷。"
+    "v": ""
+  },
+  {
+    "path": "directions.subwayTitle",
+    "v": "乘坐地铁时"
+  },
+  {
+    "path": "directions.cableTitle",
+    "v": "乘坐缆车时"
   },
   {
     "path": "directions.chungmuroTitle",
-    "v": "忠武路站（3·4号线）"
+    "v": "3·4号线 忠武路站"
+  },
+  {
+    "path": "directions.chungmuroName",
+    "v": "忠武路站"
   },
   {
     "path": "directions.chungmuroDesc",
-    "v": "2号出口 → 巴士 01A·01B → 南山首尔塔站 → 八角亭"
+    "v": "2号出口 > 乘坐01A·01B路公交车 > 在南山首尔塔站下车 > 步行至南山八角亭"
   },
   {
     "path": "directions.donggukTitle",
-    "v": "东国大学站（3号线）"
+    "v": "3号线 东大入口站"
+  },
+  {
+    "path": "directions.donggukName",
+    "v": "东大入口站"
   },
   {
     "path": "directions.donggukDesc",
-    "v": "6号出口 → 巴士 01A·01B → 南山首尔塔站 → 八角亭"
+    "v": "6号出口 > 乘坐01A·01B路公交车 > 在南山首尔塔站下车 > 步行至南山八角亭"
   },
   {
     "path": "directions.myeongdongTitle",
-    "v": "明洞站（4号线）"
+    "v": "4号线 明洞站"
+  },
+  {
+    "path": "directions.myeongdongName",
+    "v": "明洞站"
   },
   {
     "path": "directions.myeongdongDesc",
-    "v": "3号出口 → 南山缆车 → 上站 → 八角亭"
+    "v": "3号出口 > 步行约5分钟至南山艺场巴士换乘停车场 > 乘坐01A·01B路公交车 > 在南山首尔塔站下车 > 步行至南山八角亭"
+  },
+  {
+    "path": "directions.cableMyeongdongDesc",
+    "v": "3号出口 > 步行至南山缆车山下站 > 乘坐缆车 > 在南山缆车山上站下车 > 步行至南山八角亭"
+  },
+  {
+    "path": "directions.cableNote",
+    "v": "※ 南山缆车为收费项目"
+  },
+  {
+    "path": "directions.cableFareAdult",
+    "v": "成人 : 往返 15,000韩元 / 单程 12,000韩元"
+  },
+  {
+    "path": "directions.cableFareChild",
+    "v": "儿童 : 往返 11,500韩元 / 单程 9,000韩元"
   },
   {
     "path": "directions.carTitle",
-    "v": "自驾"
+    "v": "自驾前往时"
   },
   {
     "path": "directions.carDesc",
-    "v": "南山山顶道路限制私家车通行。"
+    "v": "南山山顶区域禁止普通私家车通行。"
   },
   {
     "path": "directions.carNote",
@@ -421,7 +473,7 @@
   },
   {
     "path": "venuePage.exp1",
-    "v": "韩文名工作室与数字漫画肖像"
+    "v": "想知道你的韩国名字吗？"
   },
   {
     "path": "venuePage.exp2",
