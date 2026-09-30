@@ -686,6 +686,19 @@ body.is-sub .sub-hero__header .site-header {
   background: var(--white);
 }
 
+.timetable-table__cell--marker {
+  padding: clamp(6px, 1vw, 10px) clamp(8px, 1.2vw, 12px);
+}
+
+.timetable-cell__marker {
+  display: block;
+  width: min(100%, 220px);
+  max-height: calc(var(--tt-slot-h) - 20px);
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
 .timetable-cell__main {
   display: block;
   font: inherit;
